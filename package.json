@@ -16,7 +16,7 @@
     "snippets": [
       {
         "language": [
-          "all"
+          "html"
         ],
         "path": "./snippets/webcomponents.json"
       },

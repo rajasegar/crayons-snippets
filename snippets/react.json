@@ -1,9 +1,58 @@
 {
-    "fw-accordion": {
-        "prefix": "fw-accordion",
+    "fw-import-accordion": {
+        "prefix": "fw-iaccord",
         "body": [
-            "<fw-accordion expanded>${0:Accordion body}</fw-accordion>"
+            "import { FwAccordion } from \"@freshworks/crayons/react\""
         ],
-        "description": "Accordion"
+        "description": "Import Freshworks Crayons Accordion React Component"
     },
+    "fw-accordion": {
+        "prefix": "fw-accord",
+        "body": [
+            "<FwAccordion expanded={true}>${0:Accordion body}</FwAccordion>"
+        ],
+        "description": "Freshworks Crayons Accordion React Component"
+    },
+    "fw-import-avatar": {
+        "prefix": "fw-iavtr",
+        "body": [
+            "import { FwAvatar} from \"@freshworks/crayons/react\""
+        ],
+        "description": "Import Freshworks Crayons Avatar React component"
+    },
+    "fw-avatar": {
+        "prefix": "fw-avtr",
+        "body": [
+            "<FwAvatar size=\"${1:Size}\" image=\"${2:Url}\" mode=\"${3:Mode}\"></FwAvatar>"
+        ],
+        "description": "Freshworks Crayons Avatar React component"
+    },
+    "fw-import-button": {
+        "prefix": "fw-ibtn",
+        "body": [
+            "import { FwButton } from \"@freshworks/crayons/react\""
+        ],
+        "description": "Import Freshworks Crayons Button React component"
+    },
+    "fw-button": {
+        "prefix": "fw-btn",
+        "body": [
+            "<FwButton color=\"${1:color}\" size=\"${2:Size}\">${0:Button content}</FwButton>"
+        ],
+        "description": "Freshworks Crayons Button React component"
+    },
+    "fw-button-loading": {
+        "prefix": "fw-btnl",
+        "body": [
+            "<FwButton color=\"${1:color}\" loading={true}>${0:Button content}</FwButton>"
+        ],
+        "description": "Freshworks Crayons Button React component"
+    },
+    "fw-icon": {
+        "prefix": "fw-icon",
+        "body": [
+            "<FwIcon name=\"${1:name}\" size=\"${2:size}\"></FwIcon>"
+        ],
+        "description": "Freshworks Crayons Icon React component"
+    }
 }
