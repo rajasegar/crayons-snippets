@@ -1,0 +1,9 @@
+{
+    "fw-accordion": {
+        "prefix": "fw-accordion",
+        "body": [
+            "<fw-accordion expanded>${0:Accordion body}</fw-accordion>"
+        ],
+        "description": "Accordion"
+    },
+}

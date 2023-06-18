@@ -1,0 +1,37 @@
+{
+    "fw-accordion": {
+        "prefix": "fw-accord",
+        "body": [
+            "<fw-accordion expanded>${0:Accordion body}</fw-accordion>"
+        ],
+        "description": "Freshworks Crayons Accordion Web component"
+    },
+    "fw-avtr": {
+        "prefix": "fw-avtr",
+        "body": [
+            "<fw-avatar size=\"${1:Size}\" image=\"${2:Url}\" mode=\"${3:Mode}\"></fw-avatar>"
+        ],
+        "description": "Freshworks Crayons Avatar Web component"
+    },
+    "fw-button": {
+        "prefix": "fw-btn",
+        "body": [
+            "<fw-button color=\"${1:color}\" size=\"${2:Size}\">${0:Button content}</fw-button>"
+        ],
+        "description": "Freshworks Crayons Button Web component"
+    },
+    "fw-button-loading": {
+        "prefix": "fw-btnl",
+        "body": [
+            "<fw-button color=\"${1:color}\" loading>${0:Button content}</fw-button>"
+        ],
+        "description": "Freshworks Crayons Button Web component"
+    },
+    "fw-icon": {
+        "prefix": "fw-icon",
+        "body": [
+            "<fw-icon name=\"${1:name}\" size=\"${2:size}\"></fw-icon>"
+        ],
+        "description": "Freshworks Crayons Icon Web component"
+    }
+}

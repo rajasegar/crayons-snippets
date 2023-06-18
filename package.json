@@ -1,0 +1,29 @@
+{
+  "name": "crayons-snippets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": [
+          "all"
+        ],
+        "path": "./snippets/webcomponents.json"
+      },
+      {
+        "language": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+        "path": "./snippets/react.json"
+      }
+    ]
+  }
+}
