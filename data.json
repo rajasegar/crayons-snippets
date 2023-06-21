@@ -1,0 +1,125 @@
+{
+  "accordion": {
+    "name": "accordion",
+    "prefix": "acc",
+    "placeholders": [],
+    "attrs": []
+  },
+  "accordion-no-bounding-box": {
+    "name": "accordion",
+    "prefix": "accnbb",
+    "placeholders": [],
+    "attrs": [{"type": "no_bounding_box"}]
+  },
+  "accordion-body": {
+    "name": "accordion-body",
+    "prefix": "acb",
+    "placeholders": [],
+    "attrs": []
+  },
+  "accordion-title": {
+    "name": "accordion-title",
+    "prefix": "act",
+    "placeholders": [],
+    "attrs": []
+  },
+  "avatar": {
+    "name": "avatar",
+    "prefix": "avtr",
+    "placeholders": ["size","image"],
+    "attrs": []
+  },
+  "avatar-medium": {
+    "name": "avatar",
+    "prefix": "avtrm",
+    "placeholders": ["image"],
+    "attrs": [{"size": "medium"} ]
+  },
+  "avatar-small": {
+    "name": "avatar",
+    "prefix": "avtrs",
+    "placeholders": ["image"],
+    "attrs": [{"size": "small"} ]
+  },
+  "avatar-dark-mode": {
+    "name": "avatar",
+    "prefix": "avtrdm",
+    "placeholders": ["initials"],
+    "attrs": [{"mode": "dark"} ]
+  },
+  "avatar-light-mode": {
+    "name": "avatar",
+    "prefix": "avtrlm",
+    "placeholders": ["initials"],
+    "attrs": [{"mode": "light"} ]
+  },
+  "avatar-error-mode": {
+    "name": "avatar",
+    "prefix": "avtrem",
+    "placeholders": ["initials"],
+    "attrs": [{"mode": "error"} ]
+  },
+  "btn-primary": {
+    "name": "button",
+    "prefix": "btnp",
+    "placeholders": [],
+    "attrs": [{"color": "primary"} ],
+    "children": true
+  },
+  "btn-secondary": {
+    "name": "button",
+    "prefix": "btns",
+    "placeholders": [],
+    "attrs": [{"color": "secondary"} ],
+    "children": true
+  },
+  "btn-danger": {
+    "name": "button",
+    "prefix": "btnd",
+    "placeholders": [],
+    "attrs": [{"color": "danger"} ],
+    "children": true
+  },
+  "btn-link": {
+    "name": "button",
+    "prefix": "btnl",
+    "placeholders": [],
+    "attrs": [{"color": "link"} ],
+    "children": true
+  },
+  "btn-text": {
+    "name": "button",
+    "prefix": "btnt",
+    "placeholders": [],
+    "attrs": [{"color": "text"} ],
+    "children": true
+  },
+  "btn-small": {
+    "name": "button",
+    "prefix": "btn-small",
+    "placeholders": [],
+    "attrs": [{"size": "small"} ],
+    "children": true
+  },
+  "btn-icon": {
+    "name": "button",
+    "prefix": "btn-icon",
+    "placeholders": ["color"],
+    "attrs": [{"size": "icon"} ],
+    "children": true
+  },
+  "btn-loading": {
+    "name": "button",
+    "prefix": "btn-loading",
+    "placeholders": ["color"],
+    "attrs": [{"loading": ""} ],
+    "children": true
+  },
+  "btn-disabled": {
+    "name": "button",
+    "prefix": "btn-disabled",
+    "placeholders": ["color"],
+    "attrs": [{"disabled": ""} ],
+    "children": true
+  }
+}

@@ -54,5 +54,61 @@
             "<FwIcon name=\"${1:name}\" size=\"${2:size}\"></FwIcon>"
         ],
         "description": "Freshworks Crayons Icon React component"
-    }
+    },
+    "fw-checkbox": {
+        "prefix": "fw-cbx",
+        "body": [
+            "<FwCheckbox checked description=\"${1:description}\" value=\"${2:value}\"></FwCheckbox>"
+        ],
+        "description": "Freshworks Crayons Checkbox React component"
+    },
+    "fw-checkbox": {
+        "prefix": "fw-icbx",
+        "body": [
+            "import { FWCheckbox } from \"@freshworks/crayons/react\""
+        ],
+        "description": "Import Freshworks Crayons Checkbox React component"
+    },
+    "fw-import-country-phone": {
+        "prefix": "fw-icp",
+        "body": [
+            "import { FWCountryPhone } from \"@freshworks/crayons/react\""
+        ],
+        "description": "Import Freshworks Crayons Country Phone React component"
+    },
+    "fw-country-phone": {
+        "prefix": "fw-cp",
+        "body": [
+            "<FwCountryPhone value=\"${1:value}\" name=\"${2:name}\" state=\"${3:state}\"></FwCountryPhone>"
+        ],
+        "description": "Freshworks Crayons Country Phone React component"
+    },
+    "fw-data-table": {
+        "prefix": "fw-dt",
+        "body": [
+            "<FwDataTable columns=\"${1:columns}\" rows=\"${2:rows}\" label=\"${3:label}\" isSelectable></FwDataTable>"
+        ],
+        "description": "Freshworks Crayons DataTable React component"
+    },
+    "fw-import-data-table": {
+        "prefix": "fw-idt",
+        "body": [
+            "import { FwDataTable } from \"@freshworks/crayons/react\""
+        ],
+        "description": "Import Freshworks Crayons DataTable React component"
+    },
+    "fw-date-picker": {
+        "prefix": "fw-dp",
+        "body": [
+            "<FwDatepicker value=\"${1:value}\" display-format=\"${2:displayFormat}\" onFwChange=\"${3:onFwChange}\"></FwDatepicker>"
+        ],
+        "description": "Import Freshworks Crayons DataTable React component"
+    },
+    "fw-import-date-picker": {
+        "prefix": "fw-idp",
+        "body": [
+            "import { FwDatepicker } from \"@freshworks/crayons/react\""
+        ],
+        "description": "Import Freshworks Crayons Datepicker React component"
+    },
 }
