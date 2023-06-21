@@ -110,5 +110,5 @@
             "import { FwDatepicker } from \"@freshworks/crayons/react\""
         ],
         "description": "Import Freshworks Crayons Datepicker React component"
-    },
+    }
 }

@@ -3,7 +3,8 @@
     "name": "accordion",
     "prefix": "acc",
     "placeholders": [],
-    "attrs": []
+    "attrs": [],
+    "importable": true
   },
   "accordion-no-bounding-box": {
     "name": "accordion",
@@ -15,19 +16,22 @@
     "name": "accordion-body",
     "prefix": "acb",
     "placeholders": [],
-    "attrs": []
+    "attrs": [],
+    "importable": true
   },
   "accordion-title": {
     "name": "accordion-title",
     "prefix": "act",
     "placeholders": [],
-    "attrs": []
+    "attrs": [],
+    "importable": true
   },
   "avatar": {
     "name": "avatar",
     "prefix": "avtr",
     "placeholders": ["size","image"],
-    "attrs": []
+    "attrs": [],
+    "importable": true
   },
   "avatar-medium": {
     "name": "avatar",
@@ -58,6 +62,14 @@
     "prefix": "avtrem",
     "placeholders": ["initials"],
     "attrs": [{"mode": "error"} ]
+  },
+  "btn": {
+    "name": "button",
+    "prefix": "btn",
+    "placeholders": ["color"],
+    "attrs": [],
+    "children": true,
+    "importable": true
   },
   "btn-primary": {
     "name": "button",
@@ -121,5 +133,95 @@
     "placeholders": ["color"],
     "attrs": [{"disabled": ""} ],
     "children": true
+  },
+  "checkbox": {
+    "name": "checkbox",
+    "prefix": "chbx",
+    "placeholders": ["description","value"],
+    "attrs":[{"checked": ""}],
+    "importable": true
+  },
+  "country-phone": {
+    "name": "country-phone",
+    "prefix": "cp",
+    "placeholders": ["name","value"],
+    "attrs": [],
+    "importable": true
+  },
+  "data-table": {
+    "name": "data-table",
+    "prefix": "dt",
+    "placeholders": ["id","is-selectable", "label"],
+    "attrs": [],
+    "importable": true
+  },
+  "date-picker": {
+    "name": "date-picker",
+    "prefix": "dp",
+    "placeholders": ["id","value", "display-format"],
+    "attrs": [],
+    "importable": true
+  },
+  "date-picker-range": {
+    "name": "date-picker-range",
+    "prefix": "dpr",
+    "placeholders": ["from-date", "to-date", "display-format"],
+    "attrs": [{ "mode": "range"}],
+    "importable": true
+  },
+  "drag-container": {
+    "name": "drag-container",
+    "prefix": "drc",
+    "placeholders": ["class", "id"],
+    "attrs": [],
+    "importable": true
+  },
+  "drag-item": {
+    "name": "drag-item",
+    "prefix": "dri",
+    "placeholders": [],
+    "attrs": [],
+    "importable": true,
+    "children": true
+  },
+  "file-uploader": {
+    "name": "file-uploader",
+    "prefix": "fu",
+    "placeholders": ["text","description","hint", "max-file-size","accept"],
+    "attrs": [],
+    "importable": true
+  },
+  "file-uploader-multiple": {
+    "name": "file-uploader",
+    "prefix": "fum",
+    "placeholders": ["text","description","hint", "max-file-size","accept"],
+    "attrs": [{"multiple": true}]
+  },
+  "file-uploader2": {
+    "name": "file-uploader2",
+    "prefix": "fu2",
+    "placeholders": ["name","description","action-u-r-l", "max-file-size","accept"],
+    "attrs": [],
+    "importable": true
+  },
+  "file-uploader2-multiple": {
+    "name": "file-uploader2",
+    "prefix": "fu2m",
+    "placeholders": ["name","description","action-u-r-l", "max-file-size","accept"],
+    "attrs": [{"multiple": true}]
+  },
+  "form": {
+    "name": "form",
+    "prefix": "frm",
+    "placeholders": ["id"],
+    "attrs": [],
+    "importable": true
+  },
+  "form-control": {
+    "name": "form-control",
+    "prefix": "fc",
+    "placeholders": ["id"],
+    "attrs": [],
+    "importable": true
   }
 }

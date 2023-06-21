@@ -1,138 +1,136 @@
-#!/usr/bin/env node
-
 const fs = require('fs');
 
-    const capitalize = (str) => str[0].toUpperCase() + str.slice(1);
+const capitalize = (str) => {
+  const temp = str.split("-");
+  return temp
+    .map(t => t[0].toUpperCase() + t.slice(1))
+    .join('');
+}
 
 function generateWebComponentSnippets() {
 
-const webComponentSnippets = {};
-fs.readFile("./data.json", (err, data) => {
-  if(err) console.log(err);
-  // console.log(JSON.parse(data));
-  const _seed = JSON.parse(data);
-  Object.keys(_seed).forEach((k) => {
-    const key = `fw-${k}`
-    const { name, placeholders, prefix, attrs, children } = _seed[k];
-    const props =  placeholders.map((p,idx) => {
-      return `${p}="\${${idx+1}:${p}}"`
-    })
-    .join(' ')
-    .trim();
+  const webComponentSnippets = {};
+  fs.readFile("./data.json", (err, data) => {
+    if(err) console.log(err);
+    // console.log(JSON.parse(data));
+    const _seed = JSON.parse(data);
+    Object.keys(_seed).forEach((k) => {
+      const key = `fw-${k}`
+      const { name, placeholders, prefix, attrs, children } = _seed[k];
+      const props =  placeholders.map((p,idx) => {
+        return `${p}="\${${idx+1}:${p}}"`
+      })
+      .join(' ')
+      .trim();
 
-    const defaultProps = attrs.map((a) => {
-      const [key] = Object.keys(a);
-      const value = a[key];
-      return value ? `${key}="${value}"` : `${key}`;
-    })
-    .join(' ')
-    .trim();
+      const defaultProps = attrs.map((a) => {
+        const [key] = Object.keys(a);
+        const value = a[key];
+        return value ? `${key}="${value}"` : `${key}`;
+      })
+      .join(' ')
+      .trim();
 
-    let openTag = `<fw-${name}`;
-    if (props) {
-      openTag += ` ${props}`;
-    }
+      let openTag = `<fw-${name}`;
+      if (props) {
+        openTag += ` ${props}`;
+      }
 
-    if(defaultProps) {
-      openTag += ` ${defaultProps}`
-    }
+      if(defaultProps) {
+        openTag += ` ${defaultProps}`
+      }
 
-    openTag += '>';
-    const closeTag = `</fw-${name}>`;
-    const body = children ? `${openTag}\${0:content}${closeTag}` : `${openTag}${closeTag}` 
+      openTag += '>';
+      const closeTag = `</fw-${name}>`;
+      const body = children ? `${openTag}\${0:content}${closeTag}` : `${openTag}${closeTag}` 
 
-    webComponentSnippets[key] = {
+      webComponentSnippets[key] = {
         prefix: `fw-${prefix}`,
         body: [body],
         description: `Freshworks Crayons ${capitalize(name)} component`
       }
-  });
 
-  console.log(webComponentSnippets);
+
+    });
+
+    const count = Object.keys(webComponentSnippets).length;
+    // console.log(webComponentSnippets);
 
     fs.writeFile('./wc-snippets.json', JSON.stringify(webComponentSnippets, null, 2), (err) => {
 
       if(err) console.log(err);
-      console.log('Web component snippets generated successfully.');
+      console.log(`${count}: Web component snippets generated successfully.`);
     });
-});
+  });
 }
 
 
 
 function generateReactSnippets() {
 
-const reactSnippets = {};
-fs.readFile("./data.json", (err, data) => {
-  if(err) console.log(err);
-  // console.log(JSON.parse(data));
-  const _seed = JSON.parse(data);
-  Object.keys(_seed).forEach((k) => {
-    const key = `fw-${k}`
-    const { name, placeholders, prefix, attrs, children } = _seed[k];
-    const props =  placeholders.map((p,idx) => {
-      return `${p}="\${${idx+1}:${p}}"`
-    })
-    .join(' ')
-    .trim();
+  const reactSnippets = {};
+  fs.readFile("./data.json", (err, data) => {
+    if(err) console.log(err);
+    // console.log(JSON.parse(data));
+    const _seed = JSON.parse(data);
+    Object.keys(_seed).forEach((k) => {
+      const key = `fw-${k}`
+      const { name, placeholders, prefix, attrs, children, importable  } = _seed[k];
+      const props =  placeholders.map((p,idx) => {
+        return `${p}="\${${idx+1}:${p}}"`
+      })
+      .join(' ')
+      .trim();
 
-    const defaultProps = attrs.map((a) => {
-      const [key] = Object.keys(a);
-      const value = a[key];
-      return value ? `${key}="${value}"` : `${key}`;
-    })
-    .join(' ')
-    .trim();
+      const defaultProps = attrs.map((a) => {
+        const [key] = Object.keys(a);
+        const value = a[key];
+        return value ? `${key}="${value}"` : `${key}`;
+      })
+      .join(' ')
+      .trim();
 
-    let openTag = `<Fw${capitalize(name)}`;
-    if (props) {
-      openTag += ` ${props}`;
-    }
+      let openTag = `<Fw${capitalize(name)}`;
+      if (props) {
+        openTag += ` ${props}`;
+      }
 
-    if(defaultProps) {
-      openTag += ` ${defaultProps}`
-    }
+      if(defaultProps) {
+        openTag += ` ${defaultProps}`
+      }
 
-    openTag += '>';
-    const closeTag = `</Fw${capitalize(name)}>`;
-    const body = children ? `${openTag}\${0:content}${closeTag}` : `${openTag}${closeTag}` 
+      openTag += '>';
+      const closeTag = `</Fw${capitalize(name)}>`;
+      const body = children ? `${openTag}\${0:content}${closeTag}` : `${openTag}${closeTag}` 
 
 
-    reactSnippets[key] = {
+      reactSnippets[key] = {
         prefix: `fw-${prefix}`,
         body: [body],
         description: `Freshworks ${capitalize(name)} React component`
       }
 
-      const ReactComponents = [
-        'FwAccordion',
-        'FwAccordionTitle',
-        'FwAccordionBody',
-        'FwAvatar',
-        'FwButton',
-        'FwCheckbox',
-        'FwCountryPhone',
-      ]
-
-      ReactComponents.forEach((component) => {
-
-    reactSnippets[component] = {
-        prefix: `fw-${prefix}`,
-        body: [body],
-        description: `Freshworks ${capitalize(name)} React component`
+      if(importable) {
+        reactSnippets[`import-${key}`] = {
+          prefix: `fw-i${prefix}`,
+          body: [`import { Fw${capitalize(name)} } from "@freshworks/crayons/react"`],
+          description: `Import Freshworks ${capitalize(name)} React component`
+        }
       }
-      });
-  });
 
-  console.log(reactSnippets);
+
+    });
+
+    // console.log(reactSnippets);
+    const count = Object.keys(reactSnippets).length;
 
     fs.writeFile('./react-snippets.json', JSON.stringify(reactSnippets, null, 2), (err) => {
 
       if(err) console.log(err);
-      console.log('React snippets generated successfully.');
+      console.log(`${count}: React snippets generated successfully.`);
     });
-});
+  });
 }
 
-// generateWebComponentSnippets();
+generateWebComponentSnippets();
 generateReactSnippets();

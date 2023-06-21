@@ -6,7 +6,7 @@
     ],
     "description": "Freshworks Crayons Accordion component"
   },
-  "fw-accordion-with-type": {
+  "fw-accordion-no-bounding-box": {
     "prefix": "fw-accnbb",
     "body": [
       "<fw-accordion type=\"no_bounding_box\"></fw-accordion>"
@@ -18,14 +18,14 @@
     "body": [
       "<fw-accordion-body></fw-accordion-body>"
     ],
-    "description": "Freshworks Crayons Accordion-body component"
+    "description": "Freshworks Crayons AccordionBody component"
   },
   "fw-accordion-title": {
     "prefix": "fw-act",
     "body": [
       "<fw-accordion-title></fw-accordion-title>"
     ],
-    "description": "Freshworks Crayons Accordion-title component"
+    "description": "Freshworks Crayons AccordionTitle component"
   },
   "fw-avatar": {
     "prefix": "fw-avtr",
@@ -68,6 +68,13 @@
       "<fw-avatar initials=\"${1:initials}\" mode=\"error\"></fw-avatar>"
     ],
     "description": "Freshworks Crayons Avatar component"
+  },
+  "fw-btn": {
+    "prefix": "fw-btn",
+    "body": [
+      "<fw-button color=\"${1:color}\">${0:content}</fw-button>"
+    ],
+    "description": "Freshworks Crayons Button component"
   },
   "fw-btn-primary": {
     "prefix": "fw-btnp",
@@ -131,5 +138,96 @@
       "<fw-button color=\"${1:color}\" disabled>${0:content}</fw-button>"
     ],
     "description": "Freshworks Crayons Button component"
+  },
+  "fw-checkbox": {
+    "prefix": "fw-chbx",
+    "body": [
+      "<fw-checkbox description=\"${1:description}\" value=\"${2:value}\" checked></fw-checkbox>"
+    ],
+    "description": "Freshworks Crayons Checkbox component"
+  },
+  "fw-country-phone": {
+    "prefix": "fw-cp",
+    "body": [
+      "<fw-country-phone name=\"${1:name}\" value=\"${2:value}\"></fw-country-phone>"
+    ],
+    "description": "Freshworks Crayons CountryPhone component"
+  },
+  "fw-data-table": {
+    "prefix": "fw-dt",
+    "body": [
+      "<fw-data-table id=\"${1:id}\" is-selectable=\"${2:is-selectable}\" label=\"${3:label}\"></fw-data-table>"
+    ],
+    "description": "Freshworks Crayons DataTable component"
+  },
+  "fw-date-picker": {
+    "prefix": "fw-dp",
+    "body": [
+      "<fw-date-picker id=\"${1:id}\" value=\"${2:value}\" display-format=\"${3:display-format}\"></fw-date-picker>"
+    ],
+    "description": "Freshworks Crayons DatePicker component"
+  },
+  "fw-date-picker-range": {
+    "prefix": "fw-dpr",
+    "body": [
+      "<fw-date-picker-range from-date=\"${1:from-date}\" to-date=\"${2:to-date}\" display-format=\"${3:display-format}\" mode=\"range\"></fw-date-picker-range>"
+    ],
+    "description": "Freshworks Crayons DatePickerRange component"
+  },
+  "fw-drag-container": {
+    "prefix": "fw-drc",
+    "body": [
+      "<fw-drag-container class=\"${1:class}\" id=\"${2:id}\"></fw-drag-container>"
+    ],
+    "description": "Freshworks Crayons DragContainer component"
+  },
+  "fw-drag-item": {
+    "prefix": "fw-dri",
+    "body": [
+      "<fw-drag-item>${0:content}</fw-drag-item>"
+    ],
+    "description": "Freshworks Crayons DragItem component"
+  },
+  "fw-file-uploader": {
+    "prefix": "fw-fu",
+    "body": [
+      "<fw-file-uploader text=\"${1:text}\" description=\"${2:description}\" hint=\"${3:hint}\" max-file-size=\"${4:max-file-size}\" accept=\"${5:accept}\"></fw-file-uploader>"
+    ],
+    "description": "Freshworks Crayons FileUploader component"
+  },
+  "fw-file-uploader-multiple": {
+    "prefix": "fw-fum",
+    "body": [
+      "<fw-file-uploader text=\"${1:text}\" description=\"${2:description}\" hint=\"${3:hint}\" max-file-size=\"${4:max-file-size}\" accept=\"${5:accept}\" multiple=\"true\"></fw-file-uploader>"
+    ],
+    "description": "Freshworks Crayons FileUploader component"
+  },
+  "fw-file-uploader2": {
+    "prefix": "fw-fu2",
+    "body": [
+      "<fw-file-uploader2 name=\"${1:name}\" description=\"${2:description}\" action-u-r-l=\"${3:action-u-r-l}\" max-file-size=\"${4:max-file-size}\" accept=\"${5:accept}\"></fw-file-uploader2>"
+    ],
+    "description": "Freshworks Crayons FileUploader2 component"
+  },
+  "fw-file-uploader2-multiple": {
+    "prefix": "fw-fu2m",
+    "body": [
+      "<fw-file-uploader2 name=\"${1:name}\" description=\"${2:description}\" action-u-r-l=\"${3:action-u-r-l}\" max-file-size=\"${4:max-file-size}\" accept=\"${5:accept}\" multiple=\"true\"></fw-file-uploader2>"
+    ],
+    "description": "Freshworks Crayons FileUploader2 component"
+  },
+  "fw-form": {
+    "prefix": "fw-frm",
+    "body": [
+      "<fw-form id=\"${1:id}\"></fw-form>"
+    ],
+    "description": "Freshworks Crayons Form component"
+  },
+  "fw-form-control": {
+    "prefix": "fw-fc",
+    "body": [
+      "<fw-form-control id=\"${1:id}\"></fw-form-control>"
+    ],
+    "description": "Freshworks Crayons FormControl component"
   }
 }
