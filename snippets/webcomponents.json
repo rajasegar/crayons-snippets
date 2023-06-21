@@ -33,5 +33,96 @@
             "<fw-icon name=\"${1:name}\" size=\"${2:size}\"></fw-icon>"
         ],
         "description": "Freshworks Crayons Icon Web component"
-    }
+    },
+    "fw-checkbox": {
+        "prefix": "fw-chbx",
+        "body": [
+            "<fw-checkbox checked description=\"${1:description}\" value=\"${2:value}\"></fw-checkbox>"
+        ],
+        "description": "Freshworks Crayons Checkbox Web component"
+    },
+    "fw-country-phone": {
+        "prefix": "fw-cp",
+        "body": [
+            "<fw-country-phone name=\"${1:name}\" value=\"${2:value}\"></fw-country-phone>"
+        ],
+        "description": "Freshworks Crayons Country Phone Web component"
+    },
+    "fw-data-table": {
+        "prefix": "fw-dt",
+        "body": [
+            "<fw-data-table id=\"${1:id}\" is-selectable=\"${2:selectable}\" label=\"${3:label}\"></fw-data-table>"
+        ],
+        "description": "Freshworks Crayons DataTable Web component"
+    },
+    "fw-date-picker": {
+        "prefix": "fw-dp",
+        "body": [
+            "<fw-date-picker id=\"${1:id}\" value=\"${2:value}\" display-format=\"${3:display-format}\"></fw-date-picker>"
+        ],
+        "description": "Freshworks Crayons Datepicker Web component"
+    },
+    "fw-date-picker-range": {
+        "prefix": "fw-dpr",
+        "body": [
+            "<fw-date-picker mode=\"range\" from-date=\"${1:from}\" to-date=\"${2:to}\" display-format=\"${3:display-format}\"></fw-date-picker>"
+        ],
+        "description": "Freshworks Crayons Datepicker Range Web component"
+    },
+    "fw-drag-container": {
+        "prefix": "fw-drc",
+        "body": [
+            "<fw-drag-container class=\"${1:class}\" id=\"${2:id}\"></fw-drag-container>"
+        ],
+        "description": "Freshworks Crayons Drag Container Web component"
+    },
+    "fw-drag-item": {
+        "prefix": "fw-dri",
+        "body": [
+            "<fw-drag-item>${0:Content}</fw-drag-item>"
+        ],
+        "description": "Freshworks Crayons Drag Item Web component"
+    },
+    "fw-file-uploader": {
+        "prefix": "fw-fu",
+        "body": [
+            "<fw-file-uploader text=\"${1:text}\" description=\"${2:description}\" hint=\"${3:hint}\" max-file-size=\"${4:maxfilesize}\" accept=\"${5:filetype}\"></fw-file-uploader>"
+        ],
+        "description": "Freshworks Crayons File Uploader Web component"
+    },
+    "fw-file-uploader-multiple": {
+        "prefix": "fw-fum",
+        "body": [
+            "<fw-file-uploader text=\"${1:text}\" description=\"${2:description}\" hint=\"${3:hint}\" max-file-size=\"${4:maxfilesize}\" accept=\"${5:filetype}\" multiple=\"true\"></fw-file-uploader>"
+        ],
+        "description": "Freshworks Crayons File Uploader Web component"
+    },
+    "fw-file-uploader2": {
+        "prefix": "fw-fu2",
+        "body": [
+            "<fw-file-uploader-2 name=\"${1:name}\" description=\"${2:description}\" action-u-r-l=\"${3:actionUrl}\" max-file-size=\"${4:maxfilesize}\" accept=\"${5:filetype}\"></fw-file-uploader-2>"
+        ],
+        "description": "Freshworks Crayons File Uploader2 Web component"
+    },
+    "fw-file-uploader2-multiple": {
+        "prefix": "fw-fu2m",
+        "body": [
+            "<fw-file-uploader-2 name=\"${1:name}\" description=\"${2:description}\" action-u-r-l=\"${3:actionUrl}\" max-file-size=\"${4:maxfilesize}\" accept=\"${5:filetype}\" multiple=\"true\"></fw-file-uploader-2>"
+        ],
+        "description": "Freshworks Crayons File Uploader2 Multiple Web component"
+    },
+    "fw-form": {
+        "prefix": "fw-frm",
+        "body": [
+            "<fw-form id=\"${1:id}\"></fw-form>"
+        ],
+        "description": "Freshworks Crayons Form Web component"
+    },
+    "fw-form-control": {
+        "prefix": "fw-fc",
+        "body": [
+            "<fw-form-control id=\"${1:id}\"></fw-form>"
+        ],
+        "description": "Freshworks Crayons Form Web component"
+    },
 }
