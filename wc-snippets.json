@@ -1,0 +1,135 @@
+{
+  "fw-accordion": {
+    "prefix": "fw-acc",
+    "body": [
+      "<fw-accordion></fw-accordion>"
+    ],
+    "description": "Freshworks Crayons Accordion component"
+  },
+  "fw-accordion-with-type": {
+    "prefix": "fw-accnbb",
+    "body": [
+      "<fw-accordion type=\"no_bounding_box\"></fw-accordion>"
+    ],
+    "description": "Freshworks Crayons Accordion component"
+  },
+  "fw-accordion-body": {
+    "prefix": "fw-acb",
+    "body": [
+      "<fw-accordion-body></fw-accordion-body>"
+    ],
+    "description": "Freshworks Crayons Accordion-body component"
+  },
+  "fw-accordion-title": {
+    "prefix": "fw-act",
+    "body": [
+      "<fw-accordion-title></fw-accordion-title>"
+    ],
+    "description": "Freshworks Crayons Accordion-title component"
+  },
+  "fw-avatar": {
+    "prefix": "fw-avtr",
+    "body": [
+      "<fw-avatar size=\"${1:size}\" image=\"${2:image}\"></fw-avatar>"
+    ],
+    "description": "Freshworks Crayons Avatar component"
+  },
+  "fw-avatar-medium": {
+    "prefix": "fw-avtrm",
+    "body": [
+      "<fw-avatar image=\"${1:image}\" size=\"medium\"></fw-avatar>"
+    ],
+    "description": "Freshworks Crayons Avatar component"
+  },
+  "fw-avatar-small": {
+    "prefix": "fw-avtrs",
+    "body": [
+      "<fw-avatar image=\"${1:image}\" size=\"small\"></fw-avatar>"
+    ],
+    "description": "Freshworks Crayons Avatar component"
+  },
+  "fw-avatar-dark-mode": {
+    "prefix": "fw-avtrdm",
+    "body": [
+      "<fw-avatar initials=\"${1:initials}\" mode=\"dark\"></fw-avatar>"
+    ],
+    "description": "Freshworks Crayons Avatar component"
+  },
+  "fw-avatar-light-mode": {
+    "prefix": "fw-avtrlm",
+    "body": [
+      "<fw-avatar initials=\"${1:initials}\" mode=\"light\"></fw-avatar>"
+    ],
+    "description": "Freshworks Crayons Avatar component"
+  },
+  "fw-avatar-error-mode": {
+    "prefix": "fw-avtrem",
+    "body": [
+      "<fw-avatar initials=\"${1:initials}\" mode=\"error\"></fw-avatar>"
+    ],
+    "description": "Freshworks Crayons Avatar component"
+  },
+  "fw-btn-primary": {
+    "prefix": "fw-btnp",
+    "body": [
+      "<fw-button color=\"primary\">${0:content}</fw-button>"
+    ],
+    "description": "Freshworks Crayons Button component"
+  },
+  "fw-btn-secondary": {
+    "prefix": "fw-btns",
+    "body": [
+      "<fw-button color=\"secondary\">${0:content}</fw-button>"
+    ],
+    "description": "Freshworks Crayons Button component"
+  },
+  "fw-btn-danger": {
+    "prefix": "fw-btnd",
+    "body": [
+      "<fw-button color=\"danger\">${0:content}</fw-button>"
+    ],
+    "description": "Freshworks Crayons Button component"
+  },
+  "fw-btn-link": {
+    "prefix": "fw-btnl",
+    "body": [
+      "<fw-button color=\"link\">${0:content}</fw-button>"
+    ],
+    "description": "Freshworks Crayons Button component"
+  },
+  "fw-btn-text": {
+    "prefix": "fw-btnt",
+    "body": [
+      "<fw-button color=\"text\">${0:content}</fw-button>"
+    ],
+    "description": "Freshworks Crayons Button component"
+  },
+  "fw-btn-small": {
+    "prefix": "fw-btn-small",
+    "body": [
+      "<fw-button size=\"small\">${0:content}</fw-button>"
+    ],
+    "description": "Freshworks Crayons Button component"
+  },
+  "fw-btn-icon": {
+    "prefix": "fw-btn-icon",
+    "body": [
+      "<fw-button color=\"${1:color}\" size=\"icon\">${0:content}</fw-button>"
+    ],
+    "description": "Freshworks Crayons Button component"
+  },
+  "fw-btn-loading": {
+    "prefix": "fw-btn-loading",
+    "body": [
+      "<fw-button color=\"${1:color}\" loading>${0:content}</fw-button>"
+    ],
+    "description": "Freshworks Crayons Button component"
+  },
+  "fw-btn-disabled": {
+    "prefix": "fw-btn-disabled",
+    "body": [
+      "<fw-button color=\"${1:color}\" disabled>${0:content}</fw-button>"
+    ],
+    "description": "Freshworks Crayons Button component"
+  }
+}
