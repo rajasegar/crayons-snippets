@@ -1,5 +1,5 @@
 # crayons snippets
-Snippets for Freshworks Crayons Components
+Snippets for [Freshworks Crayons Components](https://crayons.freshworks.com)
 
 
 ## Install
@@ -56,10 +56,12 @@ loading vscode snippets. Like for example:
 ## Showcase
 
 ### HTML
+![web components demo](crayons-snippets.gif)
 
 
 ### React
 
+![React demo](crayons-react-snippets.gif)
 
 ## TODO
 
