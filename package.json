@@ -1,14 +1,14 @@
 {
   "name": "crayons-snippets",
   "version": "1.0.0",
-  "description": "",
+  "description": "VSCode and Neovim snippets for Freshworks Crayons",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "node generate.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["snippets","snippet","vscode","neovim","crayons","freshworks"],
+  "author": "Rajasegar Chandran",
   "license": "MIT",
   "engines": {
     "vscode": "^1.11.0"
