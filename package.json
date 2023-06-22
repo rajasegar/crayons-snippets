@@ -1,5 +1,6 @@
 {
   "name": "crayons-snippets",
+  "displayName":"Freshworks Crayons Snippets",
   "version": "1.0.0",
   "description": "VSCode and Neovim snippets for Freshworks Crayons",
   "main": "index.js",
@@ -10,9 +11,16 @@
   "keywords": ["snippets","snippet","vscode","neovim","crayons","freshworks"],
   "author": "Rajasegar Chandran",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajasegar/crayons-snippets"
+  },
   "engines": {
     "vscode": "^1.11.0"
   },
+  "categories": [
+    "Snippets"
+  ],
   "contributes": {
     "snippets": [
       {
