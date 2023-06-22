@@ -2,6 +2,9 @@
 Snippets for [Freshworks Crayons Components](https://crayons.freshworks.com)
 
 
+## Demo
+[Youtube](https://youtu.be/4kSZlCCuEq4)
+
 ## Install
 
 Use your plugin manager of choice, e.g.
