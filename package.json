@@ -2,6 +2,7 @@
   "name": "crayons-snippets",
   "displayName":"Freshworks Crayons Snippets",
   "version": "1.0.0",
+  "publisher": "Rajasegar",
   "description": "VSCode and Neovim snippets for Freshworks Crayons",
   "main": "index.js",
   "scripts": {
@@ -16,7 +17,7 @@
     "url": "https://github.com/rajasegar/crayons-snippets"
   },
   "engines": {
-    "vscode": "^1.11.0"
+    "vscode": "^1.74.0"
   },
   "categories": [
     "Snippets"
@@ -24,15 +25,31 @@
   "contributes": {
     "snippets": [
       {
-        "language": [
-          "html"
-        ],
-        "path": "./snippets/webcomponents.json"
+        "language": "html",
+        "path": "./snippets/webcomponents.code-snippets"
       },
       {
-        "language": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
-        "path": "./snippets/react.json"
+        "language": "javascript",
+        "path": "./snippets/react.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/react.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/react.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react.code-snippets"
       }
     ]
-  }
+  },
+  "activationEvents": [
+    "onLanguage:html",
+    "onLanguage:javascript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescriptreact"
+  ]
 }

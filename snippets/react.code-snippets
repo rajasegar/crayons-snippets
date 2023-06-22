@@ -1,0 +1,1213 @@
+{
+  "fw-accordion": {
+    "prefix": "fw-acc",
+    "body": [
+      "<FwAccordion></FwAccordion>"
+    ],
+    "description": "Freshworks Accordion React component"
+  },
+  "import-fw-accordion": {
+    "prefix": "fw-iacc",
+    "body": [
+      "import { FwAccordion } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Accordion React component"
+  },
+  "fw-accordion-no-bounding-box": {
+    "prefix": "fw-accnbb",
+    "body": [
+      "<FwAccordion type=\"no_bounding_box\"></FwAccordion>"
+    ],
+    "description": "Freshworks Accordion React component"
+  },
+  "fw-accordion-body": {
+    "prefix": "fw-acb",
+    "body": [
+      "<FwAccordionBody></FwAccordionBody>"
+    ],
+    "description": "Freshworks AccordionBody React component"
+  },
+  "import-fw-accordion-body": {
+    "prefix": "fw-iacb",
+    "body": [
+      "import { FwAccordionBody } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks AccordionBody React component"
+  },
+  "fw-accordion-title": {
+    "prefix": "fw-act",
+    "body": [
+      "<FwAccordionTitle></FwAccordionTitle>"
+    ],
+    "description": "Freshworks AccordionTitle React component"
+  },
+  "import-fw-accordion-title": {
+    "prefix": "fw-iact",
+    "body": [
+      "import { FwAccordionTitle } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks AccordionTitle React component"
+  },
+  "fw-avatar": {
+    "prefix": "fw-avtr",
+    "body": [
+      "<FwAvatar size=\"${1:size}\" image=\"${2:image}\"></FwAvatar>"
+    ],
+    "description": "Freshworks Avatar React component"
+  },
+  "import-fw-avatar": {
+    "prefix": "fw-iavtr",
+    "body": [
+      "import { FwAvatar } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Avatar React component"
+  },
+  "fw-avatar-medium": {
+    "prefix": "fw-avtrm",
+    "body": [
+      "<FwAvatar image=\"${1:image}\" size=\"medium\"></FwAvatar>"
+    ],
+    "description": "Freshworks Avatar React component"
+  },
+  "fw-avatar-small": {
+    "prefix": "fw-avtrs",
+    "body": [
+      "<FwAvatar image=\"${1:image}\" size=\"small\"></FwAvatar>"
+    ],
+    "description": "Freshworks Avatar React component"
+  },
+  "fw-avatar-dark-mode": {
+    "prefix": "fw-avtrdm",
+    "body": [
+      "<FwAvatar initials=\"${1:initials}\" mode=\"dark\"></FwAvatar>"
+    ],
+    "description": "Freshworks Avatar React component"
+  },
+  "fw-avatar-light-mode": {
+    "prefix": "fw-avtrlm",
+    "body": [
+      "<FwAvatar initials=\"${1:initials}\" mode=\"light\"></FwAvatar>"
+    ],
+    "description": "Freshworks Avatar React component"
+  },
+  "fw-avatar-error-mode": {
+    "prefix": "fw-avtrem",
+    "body": [
+      "<FwAvatar initials=\"${1:initials}\" mode=\"error\"></FwAvatar>"
+    ],
+    "description": "Freshworks Avatar React component"
+  },
+  "fw-btn": {
+    "prefix": "fw-btn",
+    "body": [
+      "<FwButton color=\"${1:color}\">${0:content}</FwButton>"
+    ],
+    "description": "Freshworks Button React component"
+  },
+  "import-fw-btn": {
+    "prefix": "fw-ibtn",
+    "body": [
+      "import { FwButton } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Button React component"
+  },
+  "fw-btn-primary": {
+    "prefix": "fw-btnp",
+    "body": [
+      "<FwButton color=\"primary\">${0:content}</FwButton>"
+    ],
+    "description": "Freshworks Button React component"
+  },
+  "fw-btn-secondary": {
+    "prefix": "fw-btns",
+    "body": [
+      "<FwButton color=\"secondary\">${0:content}</FwButton>"
+    ],
+    "description": "Freshworks Button React component"
+  },
+  "fw-btn-danger": {
+    "prefix": "fw-btnd",
+    "body": [
+      "<FwButton color=\"danger\">${0:content}</FwButton>"
+    ],
+    "description": "Freshworks Button React component"
+  },
+  "fw-btn-link": {
+    "prefix": "fw-btnl",
+    "body": [
+      "<FwButton color=\"link\">${0:content}</FwButton>"
+    ],
+    "description": "Freshworks Button React component"
+  },
+  "fw-btn-text": {
+    "prefix": "fw-btnt",
+    "body": [
+      "<FwButton color=\"text\">${0:content}</FwButton>"
+    ],
+    "description": "Freshworks Button React component"
+  },
+  "fw-btn-small": {
+    "prefix": "fw-btn-small",
+    "body": [
+      "<FwButton size=\"small\">${0:content}</FwButton>"
+    ],
+    "description": "Freshworks Button React component"
+  },
+  "fw-btn-icon": {
+    "prefix": "fw-btn-icon",
+    "body": [
+      "<FwButton color=\"${1:color}\" size=\"icon\">${0:content}</FwButton>"
+    ],
+    "description": "Freshworks Button React component"
+  },
+  "fw-btn-loading": {
+    "prefix": "fw-btn-loading",
+    "body": [
+      "<FwButton color=\"${1:color}\" loading>${0:content}</FwButton>"
+    ],
+    "description": "Freshworks Button React component"
+  },
+  "fw-btn-disabled": {
+    "prefix": "fw-btn-disabled",
+    "body": [
+      "<FwButton color=\"${1:color}\" disabled>${0:content}</FwButton>"
+    ],
+    "description": "Freshworks Button React component"
+  },
+  "fw-checkbox": {
+    "prefix": "fw-chbx",
+    "body": [
+      "<FwCheckbox description=\"${1:description}\" value=\"${2:value}\" checked></FwCheckbox>"
+    ],
+    "description": "Freshworks Checkbox React component"
+  },
+  "import-fw-checkbox": {
+    "prefix": "fw-ichbx",
+    "body": [
+      "import { FwCheckbox } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Checkbox React component"
+  },
+  "fw-country-phone": {
+    "prefix": "fw-cp",
+    "body": [
+      "<FwCountryPhone name=\"${1:name}\" value=\"${2:value}\"></FwCountryPhone>"
+    ],
+    "description": "Freshworks CountryPhone React component"
+  },
+  "import-fw-country-phone": {
+    "prefix": "fw-icp",
+    "body": [
+      "import { FwCountryPhone } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks CountryPhone React component"
+  },
+  "fw-data-table": {
+    "prefix": "fw-dt",
+    "body": [
+      "<FwDataTable id=\"${1:id}\" is-selectable=\"${2:is-selectable}\" label=\"${3:label}\"></FwDataTable>"
+    ],
+    "description": "Freshworks DataTable React component"
+  },
+  "import-fw-data-table": {
+    "prefix": "fw-idt",
+    "body": [
+      "import { FwDataTable } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks DataTable React component"
+  },
+  "fw-date-picker": {
+    "prefix": "fw-dp",
+    "body": [
+      "<FwDatePicker id=\"${1:id}\" value=\"${2:value}\" display-format=\"${3:display-format}\"></FwDatePicker>"
+    ],
+    "description": "Freshworks DatePicker React component"
+  },
+  "import-fw-date-picker": {
+    "prefix": "fw-idp",
+    "body": [
+      "import { FwDatePicker } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks DatePicker React component"
+  },
+  "fw-date-picker-range": {
+    "prefix": "fw-dpr",
+    "body": [
+      "<FwDatePickerRange from-date=\"${1:from-date}\" to-date=\"${2:to-date}\" display-format=\"${3:display-format}\" mode=\"range\"></FwDatePickerRange>"
+    ],
+    "description": "Freshworks DatePickerRange React component"
+  },
+  "import-fw-date-picker-range": {
+    "prefix": "fw-idpr",
+    "body": [
+      "import { FwDatePickerRange } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks DatePickerRange React component"
+  },
+  "fw-drag-container": {
+    "prefix": "fw-drc",
+    "body": [
+      "<FwDragContainer class=\"${1:class}\" id=\"${2:id}\"></FwDragContainer>"
+    ],
+    "description": "Freshworks DragContainer React component"
+  },
+  "import-fw-drag-container": {
+    "prefix": "fw-idrc",
+    "body": [
+      "import { FwDragContainer } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks DragContainer React component"
+  },
+  "fw-drag-item": {
+    "prefix": "fw-dri",
+    "body": [
+      "<FwDragItem>${0:content}</FwDragItem>"
+    ],
+    "description": "Freshworks DragItem React component"
+  },
+  "import-fw-drag-item": {
+    "prefix": "fw-idri",
+    "body": [
+      "import { FwDragItem } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks DragItem React component"
+  },
+  "fw-file-uploader": {
+    "prefix": "fw-fu",
+    "body": [
+      "<FwFileUploader text=\"${1:text}\" description=\"${2:description}\" hint=\"${3:hint}\" max-file-size=\"${4:max-file-size}\" accept=\"${5:accept}\"></FwFileUploader>"
+    ],
+    "description": "Freshworks FileUploader React component"
+  },
+  "import-fw-file-uploader": {
+    "prefix": "fw-ifu",
+    "body": [
+      "import { FwFileUploader } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks FileUploader React component"
+  },
+  "fw-file-uploader-multiple": {
+    "prefix": "fw-fum",
+    "body": [
+      "<FwFileUploader text=\"${1:text}\" description=\"${2:description}\" hint=\"${3:hint}\" max-file-size=\"${4:max-file-size}\" accept=\"${5:accept}\" multiple=\"true\"></FwFileUploader>"
+    ],
+    "description": "Freshworks FileUploader React component"
+  },
+  "fw-file-uploader2": {
+    "prefix": "fw-fu2",
+    "body": [
+      "<FwFileUploader2 name=\"${1:name}\" description=\"${2:description}\" action-u-r-l=\"${3:action-u-r-l}\" max-file-size=\"${4:max-file-size}\" accept=\"${5:accept}\"></FwFileUploader2>"
+    ],
+    "description": "Freshworks FileUploader2 React component"
+  },
+  "import-fw-file-uploader2": {
+    "prefix": "fw-ifu2",
+    "body": [
+      "import { FwFileUploader2 } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks FileUploader2 React component"
+  },
+  "fw-file-uploader2-multiple": {
+    "prefix": "fw-fu2m",
+    "body": [
+      "<FwFileUploader2 name=\"${1:name}\" description=\"${2:description}\" action-u-r-l=\"${3:action-u-r-l}\" max-file-size=\"${4:max-file-size}\" accept=\"${5:accept}\" multiple=\"true\"></FwFileUploader2>"
+    ],
+    "description": "Freshworks FileUploader2 React component"
+  },
+  "fw-form": {
+    "prefix": "fw-frm",
+    "body": [
+      "<FwForm id=\"${1:id}\"></FwForm>"
+    ],
+    "description": "Freshworks Form React component"
+  },
+  "import-fw-form": {
+    "prefix": "fw-ifrm",
+    "body": [
+      "import { FwForm } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Form React component"
+  },
+  "fw-form-control": {
+    "prefix": "fw-fc",
+    "body": [
+      "<FwFormControl id=\"${1:id}\"></FwFormControl>"
+    ],
+    "description": "Freshworks FormControl React component"
+  },
+  "import-fw-form-control": {
+    "prefix": "fw-ifc",
+    "body": [
+      "import { FwFormControl } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks FormControl React component"
+  },
+  "fw-format-date": {
+    "prefix": "fw-fd",
+    "body": [
+      "<FwFormatDate date=\"${1:date}\" month=\"${2:month}\" day=\"${3:day}\" year=\"${4:year}\"></FwFormatDate>"
+    ],
+    "description": "Freshworks FormatDate React component"
+  },
+  "import-fw-format-date": {
+    "prefix": "fw-ifd",
+    "body": [
+      "import { FwFormatDate } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks FormatDate React component"
+  },
+  "fw-format-date-time": {
+    "prefix": "fw-fdt",
+    "body": [
+      "<FwFormatDate hour=\"${1:hour}\" minute=\"${2:minute}\"></FwFormatDate>"
+    ],
+    "description": "Freshworks FormatDate React component"
+  },
+  "fw-format-date-weekday": {
+    "prefix": "fw-fdw",
+    "body": [
+      "<FwFormatDate weekday=\"long\"></FwFormatDate>"
+    ],
+    "description": "Freshworks FormatDate React component"
+  },
+  "fw-format-date-month": {
+    "prefix": "fw-fdm",
+    "body": [
+      "<FwFormatDate month=\"long\"></FwFormatDate>"
+    ],
+    "description": "Freshworks FormatDate React component"
+  },
+  "fw-format-date-year": {
+    "prefix": "fw-fdy",
+    "body": [
+      "<FwFormatDate year=\"numeric\"></FwFormatDate>"
+    ],
+    "description": "Freshworks FormatDate React component"
+  },
+  "fw-format-number": {
+    "prefix": "fw-fn",
+    "body": [
+      "<FwFormatNumber value=\"${1:value}\" locale=\"${2:locale}\" minimum-fraction-digits=\"${3:minimum-fraction-digits}\"></FwFormatNumber>"
+    ],
+    "description": "Freshworks FormatNumber React component"
+  },
+  "import-fw-format-number": {
+    "prefix": "fw-ifn",
+    "body": [
+      "import { FwFormatNumber } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks FormatNumber React component"
+  },
+  "fw-format-number-percent": {
+    "prefix": "fw-fnp",
+    "body": [
+      "<FwFormatNumber value=\"${1:value}\" type=\"percent\"></FwFormatNumber>"
+    ],
+    "description": "Freshworks FormatNumber React component"
+  },
+  "fw-format-number-currency": {
+    "prefix": "fw-fnc",
+    "body": [
+      "<FwFormatNumber value=\"${1:value}\" currency=\"${2:currency}\" type=\"currency\"></FwFormatNumber>"
+    ],
+    "description": "Freshworks FormatNumber React component"
+  },
+  "fw-icon": {
+    "prefix": "fw-i",
+    "body": [
+      "<FwIcon name=\"${1:name}\" size=\"${2:size}\" color=\"${3:color}\"></FwIcon>"
+    ],
+    "description": "Freshworks Icon React component"
+  },
+  "import-fw-icon": {
+    "prefix": "fw-ii",
+    "body": [
+      "import { FwIcon } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Icon React component"
+  },
+  "fw-inline-message": {
+    "prefix": "fw-im",
+    "body": [
+      "<FwInlineMessage type=\"${1:type}\" open></FwInlineMessage>"
+    ],
+    "description": "Freshworks InlineMessage React component"
+  },
+  "import-fw-inline-message": {
+    "prefix": "fw-iim",
+    "body": [
+      "import { FwInlineMessage } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks InlineMessage React component"
+  },
+  "fw-inline-message-error": {
+    "prefix": "fw-ime",
+    "body": [
+      "<FwInlineMessage open></FwInlineMessage>"
+    ],
+    "description": "Freshworks InlineMessage React component"
+  },
+  "fw-inline-message-info": {
+    "prefix": "fw-imi",
+    "body": [
+      "<FwInlineMessage open></FwInlineMessage>"
+    ],
+    "description": "Freshworks InlineMessage React component"
+  },
+  "fw-inline-message-warning": {
+    "prefix": "fw-imw",
+    "body": [
+      "<FwInlineMessage open></FwInlineMessage>"
+    ],
+    "description": "Freshworks InlineMessage React component"
+  },
+  "fw-inline-message-success": {
+    "prefix": "fw-ims",
+    "body": [
+      "<FwInlineMessage open></FwInlineMessage>"
+    ],
+    "description": "Freshworks InlineMessage React component"
+  },
+  "fw-inline-message-closable": {
+    "prefix": "fw-imc",
+    "body": [
+      "<FwInlineMessage type=\"${1:type}\" open></FwInlineMessage>"
+    ],
+    "description": "Freshworks InlineMessage React component"
+  },
+  "fw-inline-message-closable-error": {
+    "prefix": "fw-imce",
+    "body": [
+      "<FwInlineMessage open></FwInlineMessage>"
+    ],
+    "description": "Freshworks InlineMessage React component"
+  },
+  "fw-inline-message-closable-info": {
+    "prefix": "fw-imci",
+    "body": [
+      "<FwInlineMessage open></FwInlineMessage>"
+    ],
+    "description": "Freshworks InlineMessage React component"
+  },
+  "fw-inline-message-closable-warning": {
+    "prefix": "fw-imcw",
+    "body": [
+      "<FwInlineMessage open></FwInlineMessage>"
+    ],
+    "description": "Freshworks InlineMessage React component"
+  },
+  "fw-inline-message-closable-success": {
+    "prefix": "fw-imcs",
+    "body": [
+      "<FwInlineMessage open></FwInlineMessage>"
+    ],
+    "description": "Freshworks InlineMessage React component"
+  },
+  "fw-input": {
+    "prefix": "fw-input",
+    "body": [
+      "<FwInput label=\"${1:label}\" placeholder=\"${2:placeholder}\" state=\"${3:state}\" required></FwInput>"
+    ],
+    "description": "Freshworks Input React component"
+  },
+  "import-fw-input": {
+    "prefix": "fw-iinput",
+    "body": [
+      "import { FwInput } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Input React component"
+  },
+  "fw-kebab-menu": {
+    "prefix": "fw-km",
+    "body": [
+      "<FwKebabMenu id=\"${1:id}\"></FwKebabMenu>"
+    ],
+    "description": "Freshworks KebabMenu React component"
+  },
+  "import-fw-kebab-menu": {
+    "prefix": "fw-ikm",
+    "body": [
+      "import { FwKebabMenu } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks KebabMenu React component"
+  },
+  "fw-label": {
+    "prefix": "fw-la",
+    "body": [
+      "<FwLabel value=\"${1:value}\" color=\"${2:color}\"></FwLabel>"
+    ],
+    "description": "Freshworks Label React component"
+  },
+  "import-fw-label": {
+    "prefix": "fw-ila",
+    "body": [
+      "import { FwLabel } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Label React component"
+  },
+  "fw-label-blue": {
+    "prefix": "fw-lab",
+    "body": [
+      "<FwLabel value=\"${1:value}\" color=\"blue\"></FwLabel>"
+    ],
+    "description": "Freshworks Label React component"
+  },
+  "fw-label-red": {
+    "prefix": "fw-lar",
+    "body": [
+      "<FwLabel value=\"${1:value}\" color=\"red\"></FwLabel>"
+    ],
+    "description": "Freshworks Label React component"
+  },
+  "fw-label-green": {
+    "prefix": "fw-lag",
+    "body": [
+      "<FwLabel value=\"${1:value}\" color=\"green\"></FwLabel>"
+    ],
+    "description": "Freshworks Label React component"
+  },
+  "fw-label-yellow": {
+    "prefix": "fw-lay",
+    "body": [
+      "<FwLabel value=\"${1:value}\" color=\"yellow\"></FwLabel>"
+    ],
+    "description": "Freshworks Label React component"
+  },
+  "fw-label-grey": {
+    "prefix": "fw-lagrey",
+    "body": [
+      "<FwLabel value=\"${1:value}\" color=\"grey\"></FwLabel>"
+    ],
+    "description": "Freshworks Label React component"
+  },
+  "fw-menu": {
+    "prefix": "fw-menu",
+    "body": [
+      "<FwMenu></FwMenu>"
+    ],
+    "description": "Freshworks Menu React component"
+  },
+  "import-fw-menu": {
+    "prefix": "fw-imenu",
+    "body": [
+      "import { FwMenu } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Menu React component"
+  },
+  "fw-menu-item": {
+    "prefix": "fw-menu-item",
+    "body": [
+      "<FwMenuItem selectable>${0:content}</FwMenuItem>"
+    ],
+    "description": "Freshworks MenuItem React component"
+  },
+  "import-fw-menu-item": {
+    "prefix": "fw-imenu-item",
+    "body": [
+      "import { FwMenuItem } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks MenuItem React component"
+  },
+  "fw-modal": {
+    "prefix": "fw-modal",
+    "body": [
+      "<FwModal id=\"${1:id}\" title-text=\"${2:title-text}\" size=\"${3:size}\">${0:content}</FwModal>"
+    ],
+    "description": "Freshworks Modal React component"
+  },
+  "import-fw-modal": {
+    "prefix": "fw-imodal",
+    "body": [
+      "import { FwModal } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Modal React component"
+  },
+  "fw-modal-small": {
+    "prefix": "fw-modal-s",
+    "body": [
+      "<FwModal id=\"${1:id}\" title-text=\"${2:title-text}\" size=\"small\">${0:content}</FwModal>"
+    ],
+    "description": "Freshworks Modal React component"
+  },
+  "fw-modal-large": {
+    "prefix": "fw-modal-l",
+    "body": [
+      "<FwModal id=\"${1:id}\" title-text=\"${2:title-text}\" size=\"large\">${0:content}</FwModal>"
+    ],
+    "description": "Freshworks Modal React component"
+  },
+  "fw-modal-slider": {
+    "prefix": "fw-modal-slider",
+    "body": [
+      "<FwModal id=\"${1:id}\" title-text=\"${2:title-text}\" slider=\"true\">${0:content}</FwModal>"
+    ],
+    "description": "Freshworks Modal React component"
+  },
+  "fw-modal-title": {
+    "prefix": "fw-modal-title",
+    "body": [
+      "<FwModalTitle title-text=\"${1:title-text}\">${0:content}</FwModalTitle>"
+    ],
+    "description": "Freshworks ModalTitle React component"
+  },
+  "import-fw-modal-title": {
+    "prefix": "fw-imodal-title",
+    "body": [
+      "import { FwModalTitle } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks ModalTitle React component"
+  },
+  "fw-modal-content": {
+    "prefix": "fw-modal-content",
+    "body": [
+      "<FwModalContent>${0:content}</FwModalContent>"
+    ],
+    "description": "Freshworks ModalContent React component"
+  },
+  "import-fw-modal-content": {
+    "prefix": "fw-imodal-content",
+    "body": [
+      "import { FwModalContent } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks ModalContent React component"
+  },
+  "fw-modal-footer": {
+    "prefix": "fw-modal-footer",
+    "body": [
+      "<FwModalFooter>${0:content}</FwModalFooter>"
+    ],
+    "description": "Freshworks ModalFooter React component"
+  },
+  "import-fw-modal-footer": {
+    "prefix": "fw-imodal-footer",
+    "body": [
+      "import { FwModalFooter } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks ModalFooter React component"
+  },
+  "fw-list-options": {
+    "prefix": "fw-lo",
+    "body": [
+      "<FwListOptions variant=\"${1:variant}\" id=\"${2:id}\" slot=\"${3:slot}\" option-label-path=\"${4:option-label-path}\" option-value-path=\"${5:option-value-path}\"></FwListOptions>"
+    ],
+    "description": "Freshworks ListOptions React component"
+  },
+  "import-fw-list-options": {
+    "prefix": "fw-ilo",
+    "body": [
+      "import { FwListOptions } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks ListOptions React component"
+  },
+  "fw-list-options-searchable": {
+    "prefix": "fw-los",
+    "body": [
+      "<FwListOptions variant=\"${1:variant}\" id=\"${2:id}\" slot=\"${3:slot}\" option-label-path=\"${4:option-label-path}\" option-value-path=\"${5:option-value-path}\" searchable=\"true\"></FwListOptions>"
+    ],
+    "description": "Freshworks ListOptions React component"
+  },
+  "fw-pagination": {
+    "prefix": "fw-page",
+    "body": [
+      "<FwPagination per-page=\"${1:per-page}\" total=\"${2:total}\" page=\"${3:page}\"></FwPagination>"
+    ],
+    "description": "Freshworks Pagination React component"
+  },
+  "import-fw-pagination": {
+    "prefix": "fw-ipage",
+    "body": [
+      "import { FwPagination } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Pagination React component"
+  },
+  "fw-pill": {
+    "prefix": "fw-pill",
+    "body": [
+      "<FwPill color=\"${1:color}\">${0:content}</FwPill>"
+    ],
+    "description": "Freshworks Pill React component"
+  },
+  "import-fw-pill": {
+    "prefix": "fw-ipill",
+    "body": [
+      "import { FwPill } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Pill React component"
+  },
+  "fw-pill-blue": {
+    "prefix": "fw-pill-blue",
+    "body": [
+      "<FwPill color=\"blue\">${0:content}</FwPill>"
+    ],
+    "description": "Freshworks Pill React component"
+  },
+  "fw-pill-red": {
+    "prefix": "fw-pill-red",
+    "body": [
+      "<FwPill color=\"red\">${0:content}</FwPill>"
+    ],
+    "description": "Freshworks Pill React component"
+  },
+  "fw-pill-green": {
+    "prefix": "fw-pill-green",
+    "body": [
+      "<FwPill color=\"green\">${0:content}</FwPill>"
+    ],
+    "description": "Freshworks Pill React component"
+  },
+  "fw-pill-yellow": {
+    "prefix": "fw-pill-yellow",
+    "body": [
+      "<FwPill color=\"yellow\">${0:content}</FwPill>"
+    ],
+    "description": "Freshworks Pill React component"
+  },
+  "fw-pill-grey": {
+    "prefix": "fw-pill-grey",
+    "body": [
+      "<FwPill color=\"grey\">${0:content}</FwPill>"
+    ],
+    "description": "Freshworks Pill React component"
+  },
+  "fw-popover": {
+    "prefix": "fw-pop",
+    "body": [
+      "<FwPopover id=\"${1:id}\" same-width=\"${2:same-width}\" placement=\"${3:placement}\">${0:content}</FwPopover>"
+    ],
+    "description": "Freshworks Popover React component"
+  },
+  "import-fw-popover": {
+    "prefix": "fw-ipop",
+    "body": [
+      "import { FwPopover } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Popover React component"
+  },
+  "fw-progress-loader": {
+    "prefix": "fw-progress",
+    "body": [
+      "<FwProgressLoader id=\"${1:id}\" parent=\"${2:parent}\" show></FwProgressLoader>"
+    ],
+    "description": "Freshworks ProgressLoader React component"
+  },
+  "import-fw-progress-loader": {
+    "prefix": "fw-iprogress",
+    "body": [
+      "import { FwProgressLoader } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks ProgressLoader React component"
+  },
+  "fw-radio": {
+    "prefix": "fw-radio",
+    "body": [
+      "<FwRadio description=\"${1:description}\" value=\"${2:value}\">${0:content}</FwRadio>"
+    ],
+    "description": "Freshworks Radio React component"
+  },
+  "import-fw-radio": {
+    "prefix": "fw-iradio",
+    "body": [
+      "import { FwRadio } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Radio React component"
+  },
+  "fw-radio-checked": {
+    "prefix": "fw-radio-checked",
+    "body": [
+      "<FwRadio description=\"${1:description}\" value=\"${2:value}\" checked>${0:content}</FwRadio>"
+    ],
+    "description": "Freshworks Radio React component"
+  },
+  "fw-radio-disabled": {
+    "prefix": "fw-radio-disabled",
+    "body": [
+      "<FwRadio description=\"${1:description}\" value=\"${2:value}\" disabled>${0:content}</FwRadio>"
+    ],
+    "description": "Freshworks Radio React component"
+  },
+  "fw-radio-group": {
+    "prefix": "fw-radio-group",
+    "body": [
+      "<FwRadioGroup name=\"${1:name}\" value=\"${2:value}\">${0:content}</FwRadioGroup>"
+    ],
+    "description": "Freshworks RadioGroup React component"
+  },
+  "import-fw-radio-group": {
+    "prefix": "fw-iradio-group",
+    "body": [
+      "import { FwRadioGroup } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks RadioGroup React component"
+  },
+  "fw-select": {
+    "prefix": "fw-select",
+    "body": [
+      "<FwSelect label=\"${1:label}\" required=\"${2:required}\" value=\"${3:value}\" placeholder=\"${4:placeholder}\" hint-text=\"${5:hint-text}\">${0:content}</FwSelect>"
+    ],
+    "description": "Freshworks Select React component"
+  },
+  "import-fw-select": {
+    "prefix": "fw-iselect",
+    "body": [
+      "import { FwSelect } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Select React component"
+  },
+  "fw-select-multiple": {
+    "prefix": "fw-select-multiple",
+    "body": [
+      "<FwSelect label=\"${1:label}\" required=\"${2:required}\" value=\"${3:value}\" placeholder=\"${4:placeholder}\" hint-text=\"${5:hint-text}\" multiple>${0:content}</FwSelect>"
+    ],
+    "description": "Freshworks Select React component"
+  },
+  "fw-select-option": {
+    "prefix": "fw-select-option",
+    "body": [
+      "<FwSelectOption value=\"${1:value}\">${0:content}</FwSelectOption>"
+    ],
+    "description": "Freshworks SelectOption React component"
+  },
+  "import-fw-select-option": {
+    "prefix": "fw-iselect-option",
+    "body": [
+      "import { FwSelectOption } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks SelectOption React component"
+  },
+  "fw-select-option-selected": {
+    "prefix": "fw-select-option-selected",
+    "body": [
+      "<FwSelectOption value=\"${1:value}\" selected>${0:content}</FwSelectOption>"
+    ],
+    "description": "Freshworks SelectOption React component"
+  },
+  "fw-skeleton": {
+    "prefix": "fw-sk",
+    "body": [
+      "<FwSkeleton variant=\"${1:variant}\"></FwSkeleton>"
+    ],
+    "description": "Freshworks Skeleton React component"
+  },
+  "import-fw-skeleton": {
+    "prefix": "fw-isk",
+    "body": [
+      "import { FwSkeleton } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Skeleton React component"
+  },
+  "fw-skeleton-circle": {
+    "prefix": "fw-skc",
+    "body": [
+      "<FwSkeleton variant=\"circle\"></FwSkeleton>"
+    ],
+    "description": "Freshworks Skeleton React component"
+  },
+  "fw-skeleton-rect": {
+    "prefix": "fw-skr",
+    "body": [
+      "<FwSkeleton variant=\"rect\"></FwSkeleton>"
+    ],
+    "description": "Freshworks Skeleton React component"
+  },
+  "fw-spinner": {
+    "prefix": "fw-spin",
+    "body": [
+      "<FwSpinner size=\"${1:size}\" color=\"${2:color}\"></FwSpinner>"
+    ],
+    "description": "Freshworks Spinner React component"
+  },
+  "import-fw-spinner": {
+    "prefix": "fw-ispin",
+    "body": [
+      "import { FwSpinner } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Spinner React component"
+  },
+  "fw-spinner-micro": {
+    "prefix": "fw-spin-micro",
+    "body": [
+      "<FwSpinner color=\"${1:color}\" size=\"micro\"></FwSpinner>"
+    ],
+    "description": "Freshworks Spinner React component"
+  },
+  "fw-spinner-small": {
+    "prefix": "fw-spin-small",
+    "body": [
+      "<FwSpinner color=\"${1:color}\" size=\"small\"></FwSpinner>"
+    ],
+    "description": "Freshworks Spinner React component"
+  },
+  "fw-spinner-medium": {
+    "prefix": "fw-spin-medium",
+    "body": [
+      "<FwSpinner color=\"${1:color}\" size=\"medium\"></FwSpinner>"
+    ],
+    "description": "Freshworks Spinner React component"
+  },
+  "fw-spinner-large": {
+    "prefix": "fw-spin-large",
+    "body": [
+      "<FwSpinner color=\"${1:color}\" size=\"large\"></FwSpinner>"
+    ],
+    "description": "Freshworks Spinner React component"
+  },
+  "fw-tab": {
+    "prefix": "fw-tab",
+    "body": [
+      "<FwTab slot=\"${1:slot}\" active=\"${2:active}\" disabled=\"${3:disabled}\" panel=\"${4:panel}\" tabHeader=\"${5:tabHeader}\" tabName=\"${6:tabName}\">${0:content}</FwTab>"
+    ],
+    "description": "Freshworks Tab React component"
+  },
+  "import-fw-tab": {
+    "prefix": "fw-itab",
+    "body": [
+      "import { FwTab } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Tab React component"
+  },
+  "fw-tab-panel": {
+    "prefix": "fw-tab-panel",
+    "body": [
+      "<FwTabPanel active=\"${1:active}\" name=\"${2:name}\">${0:content}</FwTabPanel>"
+    ],
+    "description": "Freshworks TabPanel React component"
+  },
+  "import-fw-tab-panel": {
+    "prefix": "fw-itab-panel",
+    "body": [
+      "import { FwTabPanel } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks TabPanel React component"
+  },
+  "fw-tabs": {
+    "prefix": "fw-tabs",
+    "body": [
+      "<FwTabs>${0:content}</FwTabs>"
+    ],
+    "description": "Freshworks Tabs React component"
+  },
+  "import-fw-tabs": {
+    "prefix": "fw-itabs",
+    "body": [
+      "import { FwTabs } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Tabs React component"
+  },
+  "fw-tag": {
+    "prefix": "fw-tag",
+    "body": [
+      "<FwTag id=\"${1:id}\" variant=\"${2:variant}\" text=\"${3:text}\" state=\"${4:state}\"></FwTag>"
+    ],
+    "description": "Freshworks Tag React component"
+  },
+  "import-fw-tag": {
+    "prefix": "fw-itag",
+    "body": [
+      "import { FwTag } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Tag React component"
+  },
+  "fw-textarea": {
+    "prefix": "fw-textarea",
+    "body": [
+      "<FwTextarea label=\"${1:label}\" warning-text=\"${2:warning-text}\" state=\"${3:state}\" placeholder=\"${4:placeholder}\" required></FwTextarea>"
+    ],
+    "description": "Freshworks Textarea React component"
+  },
+  "import-fw-textarea": {
+    "prefix": "fw-itextarea",
+    "body": [
+      "import { FwTextarea } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Textarea React component"
+  },
+  "fw-timepicker": {
+    "prefix": "fw-tp",
+    "body": [
+      "<FwTimepicker interval=\"${1:interval}\" format=\"${2:format}\"></FwTimepicker>"
+    ],
+    "description": "Freshworks Timepicker React component"
+  },
+  "import-fw-timepicker": {
+    "prefix": "fw-itp",
+    "body": [
+      "import { FwTimepicker } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Timepicker React component"
+  },
+  "fw-timepicker-range": {
+    "prefix": "fw-tp-range",
+    "body": [
+      "<FwTimepicker min-time=\"${1:min-time}\" max-time=\"${2:max-time}\"></FwTimepicker>"
+    ],
+    "description": "Freshworks Timepicker React component"
+  },
+  "fw-toast": {
+    "prefix": "fw-toast",
+    "body": [
+      "<FwToast id=\"${1:id}\" position=\"${2:position}\"></FwToast>"
+    ],
+    "description": "Freshworks Toast React component"
+  },
+  "import-fw-toast": {
+    "prefix": "fw-itoast",
+    "body": [
+      "import { FwToast } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Toast React component"
+  },
+  "fw-toast-message": {
+    "prefix": "fw-tm",
+    "body": [
+      "<FwToastMessage type=\"${1:type}\" id=\"${2:id}\" timeout=\"${3:timeout}\"></FwToastMessage>"
+    ],
+    "description": "Freshworks ToastMessage React component"
+  },
+  "import-fw-toast-message": {
+    "prefix": "fw-itm",
+    "body": [
+      "import { FwToastMessage } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks ToastMessage React component"
+  },
+  "fw-toast-message-success": {
+    "prefix": "fw-tms",
+    "body": [
+      "<FwToastMessage id=\"${1:id}\" timeout=\"${2:timeout}\" type=\"success\"></FwToastMessage>"
+    ],
+    "description": "Freshworks ToastMessage React component"
+  },
+  "fw-toast-message-error": {
+    "prefix": "fw-tme",
+    "body": [
+      "<FwToastMessage id=\"${1:id}\" timeout=\"${2:timeout}\" type=\"error\"></FwToastMessage>"
+    ],
+    "description": "Freshworks ToastMessage React component"
+  },
+  "fw-toast-message-warning": {
+    "prefix": "fw-tmw",
+    "body": [
+      "<FwToastMessage id=\"${1:id}\" timeout=\"${2:timeout}\" type=\"warning\"></FwToastMessage>"
+    ],
+    "description": "Freshworks ToastMessage React component"
+  },
+  "fw-toast-message-inprogress": {
+    "prefix": "fw-tmi",
+    "body": [
+      "<FwToastMessage id=\"${1:id}\" timeout=\"${2:timeout}\" type=\"inprogress\"></FwToastMessage>"
+    ],
+    "description": "Freshworks ToastMessage React component"
+  },
+  "fw-toggle": {
+    "prefix": "fw-toggle",
+    "body": [
+      "<FwToggle size=\"${1:size}\" label=\"${2:label}\" name=\"${3:name}\"></FwToggle>"
+    ],
+    "description": "Freshworks Toggle React component"
+  },
+  "import-fw-toggle": {
+    "prefix": "fw-itoggle",
+    "body": [
+      "import { FwToggle } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Toggle React component"
+  },
+  "fw-toggle-small": {
+    "prefix": "fw-toggle-small",
+    "body": [
+      "<FwToggle label=\"${1:label}\" name=\"${2:name}\" size=\"small\"></FwToggle>"
+    ],
+    "description": "Freshworks Toggle React component"
+  },
+  "fw-toggle-large": {
+    "prefix": "fw-toggle-large",
+    "body": [
+      "<FwToggle label=\"${1:label}\" name=\"${2:name}\" size=\"large\"></FwToggle>"
+    ],
+    "description": "Freshworks Toggle React component"
+  },
+  "fw-toggle-checked": {
+    "prefix": "fw-toggle-checked",
+    "body": [
+      "<FwToggle label=\"${1:label}\" name=\"${2:name}\" size=\"${3:size}\" checked></FwToggle>"
+    ],
+    "description": "Freshworks Toggle React component"
+  },
+  "fw-toggle-disabled": {
+    "prefix": "fw-toggle-disabled",
+    "body": [
+      "<FwToggle label=\"${1:label}\" name=\"${2:name}\" size=\"${3:size}\" disabled></FwToggle>"
+    ],
+    "description": "Freshworks Toggle React component"
+  },
+  "fw-toggle-group": {
+    "prefix": "fw-tg",
+    "body": [
+      "<FwToogleGroup name=\"${1:name}\" selected-values=\"${2:selected-values}\">${0:content}</FwToogleGroup>"
+    ],
+    "description": "Freshworks ToogleGroup React component"
+  },
+  "import-fw-toggle-group": {
+    "prefix": "fw-itg",
+    "body": [
+      "import { FwToogleGroup } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks ToogleGroup React component"
+  },
+  "fw-toggle-group-button": {
+    "prefix": "fw-tgb",
+    "body": [
+      "<FwToogleGroupButton header=\"${1:header}\" description=\"${2:description}\" value=\"${3:value}\">${0:content}</FwToogleGroupButton>"
+    ],
+    "description": "Freshworks ToogleGroupButton React component"
+  },
+  "import-fw-toggle-group-button": {
+    "prefix": "fw-itgb",
+    "body": [
+      "import { FwToogleGroupButton } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks ToogleGroupButton React component"
+  },
+  "fw-tooltip": {
+    "prefix": "fw-tt",
+    "body": [
+      "<FwTooltip id=\"${1:id}\" placement=\"${2:placement}\" trigger=\"${3:trigger}\" content=\"${4:content}\">${0:content}</FwTooltip>"
+    ],
+    "description": "Freshworks Tooltip React component"
+  },
+  "import-fw-tooltip": {
+    "prefix": "fw-itt",
+    "body": [
+      "import { FwTooltip } from \"@freshworks/crayons/react\""
+    ],
+    "description": "Import Freshworks Tooltip React component"
+  },
+  "fw-tooltip-top": {
+    "prefix": "fw-ttt",
+    "body": [
+      "<FwTooltip id=\"${1:id}\" trigger=\"${2:trigger}\" content=\"${3:content}\" placement=\"top\">${0:content}</FwTooltip>"
+    ],
+    "description": "Freshworks Tooltip React component"
+  },
+  "fw-tooltip-right": {
+    "prefix": "fw-ttr",
+    "body": [
+      "<FwTooltip id=\"${1:id}\" trigger=\"${2:trigger}\" content=\"${3:content}\" placement=\"right\">${0:content}</FwTooltip>"
+    ],
+    "description": "Freshworks Tooltip React component"
+  },
+  "fw-tooltip-bottom": {
+    "prefix": "fw-ttb",
+    "body": [
+      "<FwTooltip id=\"${1:id}\" trigger=\"${2:trigger}\" content=\"${3:content}\" placement=\"bottom\">${0:content}</FwTooltip>"
+    ],
+    "description": "Freshworks Tooltip React component"
+  },
+  "fw-tooltip-left": {
+    "prefix": "fw-ttl",
+    "body": [
+      "<FwTooltip id=\"${1:id}\" trigger=\"${2:trigger}\" content=\"${3:content}\" placement=\"left\">${0:content}</FwTooltip>"
+    ],
+    "description": "Freshworks Tooltip React component"
+  }
+}

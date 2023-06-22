@@ -56,7 +56,7 @@ function generateWebComponentSnippets() {
     const count = Object.keys(webComponentSnippets).length;
     // console.log(webComponentSnippets);
 
-    fs.writeFile('./snippets/webcomponents.json', JSON.stringify(webComponentSnippets, null, 2), (err) => {
+    fs.writeFile('./snippets/webcomponents.code-snippets', JSON.stringify(webComponentSnippets, null, 2), (err) => {
 
       if(err) console.log(err);
       console.log(`Web component snippets generated successfully ==> ${count}`);
@@ -124,7 +124,7 @@ function generateReactSnippets() {
     // console.log(reactSnippets);
     const count = Object.keys(reactSnippets).length;
 
-    fs.writeFile('./snippets/react.json', JSON.stringify(reactSnippets, null, 2), (err) => {
+    fs.writeFile('./snippets/react.code-snippets', JSON.stringify(reactSnippets, null, 2), (err) => {
 
       if(err) console.log(err);
       console.log(`React snippets generated successfully ==> ${count}`);
