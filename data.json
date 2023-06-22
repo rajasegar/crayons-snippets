@@ -223,5 +223,602 @@
     "placeholders": ["id"],
     "attrs": [],
     "importable": true
+  },
+  "format-date": {
+    "name": "format-date",
+    "prefix": "fd",
+    "placeholders": ["date", "month","day","year"],
+    "attrs": [],
+    "importable": true
+  },
+  "format-date-time": {
+    "name": "format-date",
+    "prefix": "fdt",
+    "placeholders": ["hour", "minute"],
+    "attrs": []
+  },
+  "format-date-weekday": {
+    "name": "format-date",
+    "prefix": "fdw",
+    "placeholders": [],
+    "attrs": [{"weekday": "long"}]
+  },
+  "format-date-month": {
+    "name": "format-date",
+    "prefix": "fdm",
+    "placeholders": [],
+    "attrs": [{"month": "long"}]
+  },
+  "format-date-year": {
+    "name": "format-date",
+    "prefix": "fdy",
+    "placeholders": [],
+    "attrs": [{"year": "numeric"}]
+  },
+  "format-number": {
+    "name": "format-number",
+    "prefix": "fn",
+    "placeholders": ["value","locale","minimum-fraction-digits"],
+    "attrs": [],
+    "importable": true
+  },
+  "format-number-percent": {
+    "name": "format-number",
+    "prefix": "fnp",
+    "placeholders": ["value"],
+    "attrs": [{"type": "percent"}]
+  },
+  "format-number-currency": {
+    "name": "format-number",
+    "prefix": "fnc",
+    "placeholders": ["value", "currency"],
+    "attrs": [{"type": "currency"}]
+  },
+  "icon": {
+    "name": "icon",
+    "prefix": "i",
+    "placeholders": ["name", "size", "color"],
+    "attrs": [],
+    "importable": true
+  },
+  "inline-message": {
+    "name": "inline-message",
+    "prefix": "im",
+    "placeholders": ["type"],
+    "attrs": [{"open":""}],
+    "importable": true
+  },
+  "inline-message-error": {
+    "name": "inline-message",
+    "prefix": "ime",
+    "placeholders": [],
+    "attrs": [{"open":"","type":"error"}]
+  },
+  "inline-message-info": {
+    "name": "inline-message",
+    "prefix": "imi",
+    "placeholders": [],
+    "attrs": [{"open":"","type":"info"}]
+  },
+  "inline-message-warning": {
+    "name": "inline-message",
+    "prefix": "imw",
+    "placeholders": [],
+    "attrs": [{"open":"","type":"warning"}]
+  },
+  "inline-message-success": {
+    "name": "inline-message",
+    "prefix": "ims",
+    "placeholders": [],
+    "attrs": [{"open":"","type":"success"}]
+  },
+  "inline-message-closable": {
+    "name": "inline-message",
+    "prefix": "imc",
+    "placeholders": ["type"],
+    "attrs": [{"open":"", "closable":""}]
+  },
+  "inline-message-closable-error": {
+    "name": "inline-message",
+    "prefix": "imce",
+    "placeholders": [],
+    "attrs": [{"open":"", "closable":"", "type": "error"}]
+  },
+  "inline-message-closable-info": {
+    "name": "inline-message",
+    "prefix": "imci",
+    "placeholders": [],
+    "attrs": [{"open":"", "closable":"", "type": "info"}]
+  },
+  "inline-message-closable-warning": {
+    "name": "inline-message",
+    "prefix": "imcw",
+    "placeholders": [],
+    "attrs": [{"open":"", "closable":"", "type": "warning"}]
+  },
+  "inline-message-closable-success": {
+    "name": "inline-message",
+    "prefix": "imcs",
+    "placeholders": [],
+    "attrs": [{"open":"", "closable":"", "type": "success"}]
+  },
+  "input": {
+    "name": "input",
+    "prefix": "input",
+    "placeholders": ["label","placeholder","state"],
+    "attrs": [{"required":"", "clear-input":""}],
+      "importable": true
+  },
+  "kebab-menu": {
+    "name": "kebab-menu",
+    "prefix": "km",
+    "placeholders": ["id"],
+    "attrs": [],
+    "importable": true
+  },
+  "label": {
+    "name": "label",
+    "prefix": "la",
+    "placeholders": ["value","color"],
+    "attrs": [],
+    "importable": true
+  },
+  "label-blue": {
+    "name": "label",
+    "prefix": "lab",
+    "placeholders": ["value"],
+    "attrs": [{"color": "blue"}]
+  },
+  "label-red": {
+    "name": "label",
+    "prefix": "lar",
+    "placeholders": ["value"],
+    "attrs": [{"color": "red"}]
+  },
+  "label-green": {
+    "name": "label",
+    "prefix": "lag",
+    "placeholders": ["value"],
+    "attrs": [{"color": "green"}]
+  },
+  "label-yellow": {
+    "name": "label",
+    "prefix": "lay",
+    "placeholders": ["value"],
+    "attrs": [{"color": "yellow"}]
+  },
+  "label-grey": {
+    "name": "label",
+    "prefix": "lagrey",
+    "placeholders": ["value"],
+    "attrs": [{"color": "grey"}]
+  },
+  "menu": {
+    "name": "menu",
+    "prefix": "menu",
+    "placeholders": [],
+    "attrs": [],
+    "importable": true
+  },
+  "menu-item": {
+    "name": "menu-item",
+    "prefix": "menu-item",
+    "placeholders": [],
+    "attrs": [{"selectable":""}],
+    "children": true,
+    "importable": true
+  },
+  "modal": {
+    "name": "modal",
+    "prefix": "modal",
+    "placeholders": ["id","title-text","size"],
+    "attrs": [],
+    "children": true,
+    "importable": true
+  },
+  "modal-small": {
+    "name": "modal",
+    "prefix": "modal-s",
+    "placeholders": ["id","title-text"],
+    "attrs": [{"size": "small"}],
+    "children": true
+  },
+  "modal-large": {
+    "name": "modal",
+    "prefix": "modal-l",
+    "placeholders": ["id","title-text"],
+    "attrs": [{"size": "large"}],
+    "children": true
+  },
+  "modal-slider": {
+    "name": "modal",
+    "prefix": "modal-slider",
+    "placeholders": ["id","title-text"],
+    "attrs": [{"slider": "true"}],
+    "children": true
+  },
+  "modal-title": {
+    "name": "modal-title",
+    "prefix": "modal-title",
+    "placeholders": ["title-text"],
+    "attrs": [],
+    "children": true,
+    "importable": true
+  },
+  "modal-content": {
+    "name": "modal-content",
+    "prefix": "modal-content",
+    "placeholders": [],
+    "attrs": [],
+    "children": true,
+    "importable": true
+  },
+  "modal-footer": {
+    "name": "modal-footer",
+    "prefix": "modal-footer",
+    "placeholders": [],
+    "attrs": [],
+    "children": true,
+    "importable": true
+  },
+  "list-options": {
+    "name": "list-options",
+    "prefix": "lo",
+    "placeholders": ["variant","id","slot","option-label-path","option-value-path"],
+    "attrs": [],
+    "importable": true
+  },
+  "list-options-searchable": {
+    "name": "list-options",
+    "prefix": "los",
+    "placeholders": ["variant","id","slot","option-label-path","option-value-path"],
+    "attrs": [{"searchable": true}]
+  },
+  "pagination": {
+    "name": "pagination",
+    "prefix": "page",
+    "placeholders": ["per-page","total","page"],
+    "attrs": [],
+    "importable": true
+  },
+  "pill": {
+    "name": "pill",
+    "prefix": "pill",
+    "placeholders": ["color"],
+    "attrs": [],
+    "children": true,
+    "importable": true
+  },
+  "pill-blue": {
+    "name": "pill",
+    "prefix": "pill-blue",
+    "placeholders": [],
+    "attrs": [{"color": "blue"}],
+    "children": true
+  },
+  "pill-red": {
+    "name": "pill",
+    "prefix": "pill-red",
+    "placeholders": [],
+    "attrs": [{"color": "red"}],
+    "children": true
+  },
+  "pill-green": {
+    "name": "pill",
+    "prefix": "pill-green",
+    "placeholders": [],
+    "attrs": [{"color": "green"}],
+    "children": true
+  },
+  "pill-yellow": {
+    "name": "pill",
+    "prefix": "pill-yellow",
+    "placeholders": [],
+    "attrs": [{"color": "yellow"}],
+    "children": true
+  },
+  "pill-grey": {
+    "name": "pill",
+    "prefix": "pill-grey",
+    "placeholders": [],
+    "attrs": [{"color": "grey"}],
+    "children": true
+  },
+  "popover": {
+    "name": "popover",
+    "prefix": "pop",
+    "placeholders": ["id","same-width","placement"],
+    "attrs": [],
+    "children": true,
+    "importable": true
+  },
+  "progress-loader": {
+    "name": "progress-loader",
+    "prefix": "progress",
+    "placeholders": ["id","parent"],
+    "attrs": [{"show": ""}],
+    "importable": true
+  },
+  "radio": {
+    "name": "radio",
+    "prefix": "radio",
+    "placeholders": ["description","value"],
+    "attrs": [],
+    "children": true,
+    "importable": true
+  },
+  "radio-checked": {
+    "name": "radio",
+    "prefix": "radio-checked",
+    "placeholders": ["description","value"],
+    "attrs": [{"checked": ""}],
+    "children": true
+  },
+  "radio-disabled": {
+    "name": "radio",
+    "prefix": "radio-disabled",
+    "placeholders": ["description","value"],
+    "attrs": [{"disabled": ""}],
+    "children": true
+  },
+  "radio-group": {
+    "name": "radio-group",
+    "prefix": "radio-group",
+    "placeholders": ["name","value"],
+    "attrs": [],
+    "children": true,
+    "importable": true
+  },
+  "select": {
+    "name": "select",
+    "prefix": "select",
+    "placeholders": ["label","required","value","placeholder","hint-text"],
+    "attrs": [],
+    "children": true,
+    "importable": true
+  },
+  "select-multiple": {
+    "name": "select",
+    "prefix": "select-multiple",
+    "placeholders": ["label","required","value","placeholder","hint-text"],
+    "attrs": [{"multiple":""}],
+    "children": true
+  },
+  "select-option": {
+    "name": "select-option",
+    "prefix": "select-option",
+    "placeholders": ["value"],
+    "attrs": [],
+    "children": true,
+    "importable": true
+  },
+  "select-option-selected": {
+    "name": "select-option",
+    "prefix": "select-option-selected",
+    "placeholders": ["value"],
+    "attrs": [{"selected":""}],
+    "children": true
+  },
+  "skeleton": {
+    "name": "skeleton",
+    "prefix": "sk",
+    "placeholders": ["variant"],
+    "attrs": [],
+    "importable": true
+  },
+  "skeleton-circle": {
+    "name": "skeleton",
+    "prefix": "skc",
+    "placeholders": [],
+    "attrs": [{"variant": "circle"}]
+  },
+  "skeleton-rect": {
+    "name": "skeleton",
+    "prefix": "skr",
+    "placeholders": [],
+    "attrs": [{"variant": "rect"}]
+  },
+  "spinner": {
+    "name": "spinner",
+    "prefix": "spin",
+    "placeholders": ["size","color"],
+    "attrs": [],
+    "importable": true
+  },
+  "spinner-micro": {
+    "name": "spinner",
+    "prefix": "spin-micro",
+    "placeholders": ["color"],
+    "attrs": [{"size":"micro"}]
+  },
+  "spinner-small": {
+    "name": "spinner",
+    "prefix": "spin-small",
+    "placeholders": ["color"],
+    "attrs": [{"size":"small"}]
+  },
+  "spinner-medium": {
+    "name": "spinner",
+    "prefix": "spin-medium",
+    "placeholders": ["color"],
+    "attrs": [{"size":"medium"}]
+  },
+  "spinner-large": {
+    "name": "spinner",
+    "prefix": "spin-large",
+    "placeholders": ["color"],
+    "attrs": [{"size":"large"}]
+  },
+  "tab": {
+    "name": "tab",
+    "prefix": "tab",
+    "placeholders": ["slot","active","disabled","panel","tabHeader","tabName"],
+    "attrs": [],
+    "children":true,
+    "importable":true
+  },
+  "tab-panel": {
+    "name": "tab-panel",
+    "prefix": "tab-panel",
+    "placeholders": ["active","name"],
+    "attrs": [],
+    "children":true,
+    "importable":true
+  },
+  "tabs": {
+    "name": "tabs",
+    "prefix": "tabs",
+    "placeholders": [],
+    "attrs": [],
+    "children":true,
+    "importable":true
+  },
+  "tag": {
+    "name": "tag",
+    "prefix": "tag",
+    "placeholders": ["id","variant","text","state"],
+    "attrs": [],
+    "importable":true
+  },
+  "textarea": {
+    "name": "textarea",
+    "prefix": "textarea",
+    "placeholders": ["label","warning-text","state","placeholder"],
+    "attrs": [{"required":""}],
+    "importable":true
+  },
+  "timepicker": {
+    "name": "timepicker",
+    "prefix": "tp",
+    "placeholders": ["interval","format"],
+    "attrs": [],
+    "importable":true
+  },
+  "timepicker-range": {
+    "name": "timepicker",
+    "prefix": "tp-range",
+    "placeholders": ["min-time","max-time"],
+    "attrs": []
+  },
+  "toast": {
+    "name": "toast",
+    "prefix": "toast",
+    "placeholders": ["id","position"],
+    "attrs": [],
+    "importable": true
+  },
+  "toast-message": {
+    "name": "toast-message",
+    "prefix": "tm",
+    "placeholders": ["type","id", "timeout"],
+    "attrs": [],
+    "importable": true
+  },
+  "toast-message-success": {
+    "name": "toast-message",
+    "prefix": "tms",
+    "placeholders": ["id", "timeout"],
+    "attrs": [{"type":"success"}]
+  },
+  "toast-message-error": {
+    "name": "toast-message",
+    "prefix": "tme",
+    "placeholders": ["id", "timeout"],
+    "attrs": [{"type":"error"}]
+  },
+  "toast-message-warning": {
+    "name": "toast-message",
+    "prefix": "tmw",
+    "placeholders": ["id", "timeout"],
+    "attrs": [{"type":"warning"}]
+  },
+  "toast-message-inprogress": {
+    "name": "toast-message",
+    "prefix": "tmi",
+    "placeholders": ["id", "timeout"],
+    "attrs": [{"type":"inprogress"}]
+  },
+  "toggle": {
+    "name": "toggle",
+    "prefix": "toggle",
+    "placeholders": ["size", "label","name"],
+    "attrs": [],
+    "importable": true
+  },
+  "toggle-small": {
+    "name": "toggle",
+    "prefix": "toggle-small",
+    "placeholders": ["label","name"],
+    "attrs": [{"size":"small"}]
+  },
+  "toggle-large": {
+    "name": "toggle",
+    "prefix": "toggle-large",
+    "placeholders": ["label","name"],
+    "attrs": [{"size":"large"}]
+  },
+  "toggle-checked": {
+    "name": "toggle",
+    "prefix": "toggle-checked",
+    "placeholders": ["label","name","size"],
+    "attrs": [{"checked":""}]
+  },
+  "toggle-disabled": {
+    "name": "toggle",
+    "prefix": "toggle-disabled",
+    "placeholders": ["label","name","size"],
+    "attrs": [{"disabled":""}]
+  },
+  "toggle-group": {
+    "name": "toogle-group",
+    "prefix": "tg",
+    "placeholders": ["name","selected-values"],
+    "attrs": [],
+    "children": true,
+    "importable": true
+  },
+  "toggle-group-button": {
+    "name": "toogle-group-button",
+    "prefix": "tgb",
+    "placeholders": ["header","description","value"],
+    "attrs": [],
+    "children": true,
+    "importable": true
+  },
+  "tooltip": {
+    "name": "tooltip",
+    "prefix": "tt",
+    "placeholders": ["id","placement","trigger","content"],
+    "attrs": [],
+    "children": true,
+    "importable": true
+  },
+  "tooltip-top": {
+    "name": "tooltip",
+    "prefix": "ttt",
+    "placeholders": ["id","trigger","content"],
+    "attrs": [{"placement":"top"}],
+    "children": true
+  },
+  "tooltip-right": {
+    "name": "tooltip",
+    "prefix": "ttr",
+    "placeholders": ["id","trigger","content"],
+    "attrs": [{"placement":"right"}],
+    "children": true
+  },
+  "tooltip-bottom": {
+    "name": "tooltip",
+    "prefix": "ttb",
+    "placeholders": ["id","trigger","content"],
+    "attrs": [{"placement":"bottom"}],
+    "children": true
+  },
+  "tooltip-left": {
+    "name": "tooltip",
+    "prefix": "ttl",
+    "placeholders": ["id","trigger","content"],
+    "attrs": [{"placement":"left"}],
+    "children": true
   }
 }

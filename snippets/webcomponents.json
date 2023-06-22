@@ -1,128 +1,849 @@
 {
-    "fw-accordion": {
-        "prefix": "fw-accord",
-        "body": [
-            "<fw-accordion expanded>${0:Accordion body}</fw-accordion>"
-        ],
-        "description": "Freshworks Crayons Accordion Web component"
-    },
-    "fw-avtr": {
-        "prefix": "fw-avtr",
-        "body": [
-            "<fw-avatar size=\"${1:Size}\" image=\"${2:Url}\" mode=\"${3:Mode}\"></fw-avatar>"
-        ],
-        "description": "Freshworks Crayons Avatar Web component"
-    },
-    "fw-button": {
-        "prefix": "fw-btn",
-        "body": [
-            "<fw-button color=\"${1:color}\" size=\"${2:Size}\">${0:Button content}</fw-button>"
-        ],
-        "description": "Freshworks Crayons Button Web component"
-    },
-    "fw-button-loading": {
-        "prefix": "fw-btnl",
-        "body": [
-            "<fw-button color=\"${1:color}\" loading>${0:Button content}</fw-button>"
-        ],
-        "description": "Freshworks Crayons Button Web component"
-    },
-    "fw-icon": {
-        "prefix": "fw-icon",
-        "body": [
-            "<fw-icon name=\"${1:name}\" size=\"${2:size}\"></fw-icon>"
-        ],
-        "description": "Freshworks Crayons Icon Web component"
-    },
-    "fw-checkbox": {
-        "prefix": "fw-chbx",
-        "body": [
-            "<fw-checkbox checked description=\"${1:description}\" value=\"${2:value}\"></fw-checkbox>"
-        ],
-        "description": "Freshworks Crayons Checkbox Web component"
-    },
-    "fw-country-phone": {
-        "prefix": "fw-cp",
-        "body": [
-            "<fw-country-phone name=\"${1:name}\" value=\"${2:value}\"></fw-country-phone>"
-        ],
-        "description": "Freshworks Crayons Country Phone Web component"
-    },
-    "fw-data-table": {
-        "prefix": "fw-dt",
-        "body": [
-            "<fw-data-table id=\"${1:id}\" is-selectable=\"${2:selectable}\" label=\"${3:label}\"></fw-data-table>"
-        ],
-        "description": "Freshworks Crayons DataTable Web component"
-    },
-    "fw-date-picker": {
-        "prefix": "fw-dp",
-        "body": [
-            "<fw-date-picker id=\"${1:id}\" value=\"${2:value}\" display-format=\"${3:display-format}\"></fw-date-picker>"
-        ],
-        "description": "Freshworks Crayons Datepicker Web component"
-    },
-    "fw-date-picker-range": {
-        "prefix": "fw-dpr",
-        "body": [
-            "<fw-date-picker mode=\"range\" from-date=\"${1:from}\" to-date=\"${2:to}\" display-format=\"${3:display-format}\"></fw-date-picker>"
-        ],
-        "description": "Freshworks Crayons Datepicker Range Web component"
-    },
-    "fw-drag-container": {
-        "prefix": "fw-drc",
-        "body": [
-            "<fw-drag-container class=\"${1:class}\" id=\"${2:id}\"></fw-drag-container>"
-        ],
-        "description": "Freshworks Crayons Drag Container Web component"
-    },
-    "fw-drag-item": {
-        "prefix": "fw-dri",
-        "body": [
-            "<fw-drag-item>${0:Content}</fw-drag-item>"
-        ],
-        "description": "Freshworks Crayons Drag Item Web component"
-    },
-    "fw-file-uploader": {
-        "prefix": "fw-fu",
-        "body": [
-            "<fw-file-uploader text=\"${1:text}\" description=\"${2:description}\" hint=\"${3:hint}\" max-file-size=\"${4:maxfilesize}\" accept=\"${5:filetype}\"></fw-file-uploader>"
-        ],
-        "description": "Freshworks Crayons File Uploader Web component"
-    },
-    "fw-file-uploader-multiple": {
-        "prefix": "fw-fum",
-        "body": [
-            "<fw-file-uploader text=\"${1:text}\" description=\"${2:description}\" hint=\"${3:hint}\" max-file-size=\"${4:maxfilesize}\" accept=\"${5:filetype}\" multiple=\"true\"></fw-file-uploader>"
-        ],
-        "description": "Freshworks Crayons File Uploader Web component"
-    },
-    "fw-file-uploader2": {
-        "prefix": "fw-fu2",
-        "body": [
-            "<fw-file-uploader-2 name=\"${1:name}\" description=\"${2:description}\" action-u-r-l=\"${3:actionUrl}\" max-file-size=\"${4:maxfilesize}\" accept=\"${5:filetype}\"></fw-file-uploader-2>"
-        ],
-        "description": "Freshworks Crayons File Uploader2 Web component"
-    },
-    "fw-file-uploader2-multiple": {
-        "prefix": "fw-fu2m",
-        "body": [
-            "<fw-file-uploader-2 name=\"${1:name}\" description=\"${2:description}\" action-u-r-l=\"${3:actionUrl}\" max-file-size=\"${4:maxfilesize}\" accept=\"${5:filetype}\" multiple=\"true\"></fw-file-uploader-2>"
-        ],
-        "description": "Freshworks Crayons File Uploader2 Multiple Web component"
-    },
-    "fw-form": {
-        "prefix": "fw-frm",
-        "body": [
-            "<fw-form id=\"${1:id}\"></fw-form>"
-        ],
-        "description": "Freshworks Crayons Form Web component"
-    },
-    "fw-form-control": {
-        "prefix": "fw-fc",
-        "body": [
-            "<fw-form-control id=\"${1:id}\"></fw-form>"
-        ],
-        "description": "Freshworks Crayons Form Web component"
-    },
+  "fw-accordion": {
+    "prefix": "fw-acc",
+    "body": [
+      "<fw-accordion></fw-accordion>"
+    ],
+    "description": "Freshworks Crayons Accordion component"
+  },
+  "fw-accordion-no-bounding-box": {
+    "prefix": "fw-accnbb",
+    "body": [
+      "<fw-accordion type=\"no_bounding_box\"></fw-accordion>"
+    ],
+    "description": "Freshworks Crayons Accordion component"
+  },
+  "fw-accordion-body": {
+    "prefix": "fw-acb",
+    "body": [
+      "<fw-accordion-body></fw-accordion-body>"
+    ],
+    "description": "Freshworks Crayons AccordionBody component"
+  },
+  "fw-accordion-title": {
+    "prefix": "fw-act",
+    "body": [
+      "<fw-accordion-title></fw-accordion-title>"
+    ],
+    "description": "Freshworks Crayons AccordionTitle component"
+  },
+  "fw-avatar": {
+    "prefix": "fw-avtr",
+    "body": [
+      "<fw-avatar size=\"${1:size}\" image=\"${2:image}\"></fw-avatar>"
+    ],
+    "description": "Freshworks Crayons Avatar component"
+  },
+  "fw-avatar-medium": {
+    "prefix": "fw-avtrm",
+    "body": [
+      "<fw-avatar image=\"${1:image}\" size=\"medium\"></fw-avatar>"
+    ],
+    "description": "Freshworks Crayons Avatar component"
+  },
+  "fw-avatar-small": {
+    "prefix": "fw-avtrs",
+    "body": [
+      "<fw-avatar image=\"${1:image}\" size=\"small\"></fw-avatar>"
+    ],
+    "description": "Freshworks Crayons Avatar component"
+  },
+  "fw-avatar-dark-mode": {
+    "prefix": "fw-avtrdm",
+    "body": [
+      "<fw-avatar initials=\"${1:initials}\" mode=\"dark\"></fw-avatar>"
+    ],
+    "description": "Freshworks Crayons Avatar component"
+  },
+  "fw-avatar-light-mode": {
+    "prefix": "fw-avtrlm",
+    "body": [
+      "<fw-avatar initials=\"${1:initials}\" mode=\"light\"></fw-avatar>"
+    ],
+    "description": "Freshworks Crayons Avatar component"
+  },
+  "fw-avatar-error-mode": {
+    "prefix": "fw-avtrem",
+    "body": [
+      "<fw-avatar initials=\"${1:initials}\" mode=\"error\"></fw-avatar>"
+    ],
+    "description": "Freshworks Crayons Avatar component"
+  },
+  "fw-btn": {
+    "prefix": "fw-btn",
+    "body": [
+      "<fw-button color=\"${1:color}\">${0:content}</fw-button>"
+    ],
+    "description": "Freshworks Crayons Button component"
+  },
+  "fw-btn-primary": {
+    "prefix": "fw-btnp",
+    "body": [
+      "<fw-button color=\"primary\">${0:content}</fw-button>"
+    ],
+    "description": "Freshworks Crayons Button component"
+  },
+  "fw-btn-secondary": {
+    "prefix": "fw-btns",
+    "body": [
+      "<fw-button color=\"secondary\">${0:content}</fw-button>"
+    ],
+    "description": "Freshworks Crayons Button component"
+  },
+  "fw-btn-danger": {
+    "prefix": "fw-btnd",
+    "body": [
+      "<fw-button color=\"danger\">${0:content}</fw-button>"
+    ],
+    "description": "Freshworks Crayons Button component"
+  },
+  "fw-btn-link": {
+    "prefix": "fw-btnl",
+    "body": [
+      "<fw-button color=\"link\">${0:content}</fw-button>"
+    ],
+    "description": "Freshworks Crayons Button component"
+  },
+  "fw-btn-text": {
+    "prefix": "fw-btnt",
+    "body": [
+      "<fw-button color=\"text\">${0:content}</fw-button>"
+    ],
+    "description": "Freshworks Crayons Button component"
+  },
+  "fw-btn-small": {
+    "prefix": "fw-btn-small",
+    "body": [
+      "<fw-button size=\"small\">${0:content}</fw-button>"
+    ],
+    "description": "Freshworks Crayons Button component"
+  },
+  "fw-btn-icon": {
+    "prefix": "fw-btn-icon",
+    "body": [
+      "<fw-button color=\"${1:color}\" size=\"icon\">${0:content}</fw-button>"
+    ],
+    "description": "Freshworks Crayons Button component"
+  },
+  "fw-btn-loading": {
+    "prefix": "fw-btn-loading",
+    "body": [
+      "<fw-button color=\"${1:color}\" loading>${0:content}</fw-button>"
+    ],
+    "description": "Freshworks Crayons Button component"
+  },
+  "fw-btn-disabled": {
+    "prefix": "fw-btn-disabled",
+    "body": [
+      "<fw-button color=\"${1:color}\" disabled>${0:content}</fw-button>"
+    ],
+    "description": "Freshworks Crayons Button component"
+  },
+  "fw-checkbox": {
+    "prefix": "fw-chbx",
+    "body": [
+      "<fw-checkbox description=\"${1:description}\" value=\"${2:value}\" checked></fw-checkbox>"
+    ],
+    "description": "Freshworks Crayons Checkbox component"
+  },
+  "fw-country-phone": {
+    "prefix": "fw-cp",
+    "body": [
+      "<fw-country-phone name=\"${1:name}\" value=\"${2:value}\"></fw-country-phone>"
+    ],
+    "description": "Freshworks Crayons CountryPhone component"
+  },
+  "fw-data-table": {
+    "prefix": "fw-dt",
+    "body": [
+      "<fw-data-table id=\"${1:id}\" is-selectable=\"${2:is-selectable}\" label=\"${3:label}\"></fw-data-table>"
+    ],
+    "description": "Freshworks Crayons DataTable component"
+  },
+  "fw-date-picker": {
+    "prefix": "fw-dp",
+    "body": [
+      "<fw-date-picker id=\"${1:id}\" value=\"${2:value}\" display-format=\"${3:display-format}\"></fw-date-picker>"
+    ],
+    "description": "Freshworks Crayons DatePicker component"
+  },
+  "fw-date-picker-range": {
+    "prefix": "fw-dpr",
+    "body": [
+      "<fw-date-picker-range from-date=\"${1:from-date}\" to-date=\"${2:to-date}\" display-format=\"${3:display-format}\" mode=\"range\"></fw-date-picker-range>"
+    ],
+    "description": "Freshworks Crayons DatePickerRange component"
+  },
+  "fw-drag-container": {
+    "prefix": "fw-drc",
+    "body": [
+      "<fw-drag-container class=\"${1:class}\" id=\"${2:id}\"></fw-drag-container>"
+    ],
+    "description": "Freshworks Crayons DragContainer component"
+  },
+  "fw-drag-item": {
+    "prefix": "fw-dri",
+    "body": [
+      "<fw-drag-item>${0:content}</fw-drag-item>"
+    ],
+    "description": "Freshworks Crayons DragItem component"
+  },
+  "fw-file-uploader": {
+    "prefix": "fw-fu",
+    "body": [
+      "<fw-file-uploader text=\"${1:text}\" description=\"${2:description}\" hint=\"${3:hint}\" max-file-size=\"${4:max-file-size}\" accept=\"${5:accept}\"></fw-file-uploader>"
+    ],
+    "description": "Freshworks Crayons FileUploader component"
+  },
+  "fw-file-uploader-multiple": {
+    "prefix": "fw-fum",
+    "body": [
+      "<fw-file-uploader text=\"${1:text}\" description=\"${2:description}\" hint=\"${3:hint}\" max-file-size=\"${4:max-file-size}\" accept=\"${5:accept}\" multiple=\"true\"></fw-file-uploader>"
+    ],
+    "description": "Freshworks Crayons FileUploader component"
+  },
+  "fw-file-uploader2": {
+    "prefix": "fw-fu2",
+    "body": [
+      "<fw-file-uploader2 name=\"${1:name}\" description=\"${2:description}\" action-u-r-l=\"${3:action-u-r-l}\" max-file-size=\"${4:max-file-size}\" accept=\"${5:accept}\"></fw-file-uploader2>"
+    ],
+    "description": "Freshworks Crayons FileUploader2 component"
+  },
+  "fw-file-uploader2-multiple": {
+    "prefix": "fw-fu2m",
+    "body": [
+      "<fw-file-uploader2 name=\"${1:name}\" description=\"${2:description}\" action-u-r-l=\"${3:action-u-r-l}\" max-file-size=\"${4:max-file-size}\" accept=\"${5:accept}\" multiple=\"true\"></fw-file-uploader2>"
+    ],
+    "description": "Freshworks Crayons FileUploader2 component"
+  },
+  "fw-form": {
+    "prefix": "fw-frm",
+    "body": [
+      "<fw-form id=\"${1:id}\"></fw-form>"
+    ],
+    "description": "Freshworks Crayons Form component"
+  },
+  "fw-form-control": {
+    "prefix": "fw-fc",
+    "body": [
+      "<fw-form-control id=\"${1:id}\"></fw-form-control>"
+    ],
+    "description": "Freshworks Crayons FormControl component"
+  },
+  "fw-format-date": {
+    "prefix": "fw-fd",
+    "body": [
+      "<fw-format-date date=\"${1:date}\" month=\"${2:month}\" day=\"${3:day}\" year=\"${4:year}\"></fw-format-date>"
+    ],
+    "description": "Freshworks Crayons FormatDate component"
+  },
+  "fw-format-date-time": {
+    "prefix": "fw-fdt",
+    "body": [
+      "<fw-format-date hour=\"${1:hour}\" minute=\"${2:minute}\"></fw-format-date>"
+    ],
+    "description": "Freshworks Crayons FormatDate component"
+  },
+  "fw-format-date-weekday": {
+    "prefix": "fw-fdw",
+    "body": [
+      "<fw-format-date weekday=\"long\"></fw-format-date>"
+    ],
+    "description": "Freshworks Crayons FormatDate component"
+  },
+  "fw-format-date-month": {
+    "prefix": "fw-fdm",
+    "body": [
+      "<fw-format-date month=\"long\"></fw-format-date>"
+    ],
+    "description": "Freshworks Crayons FormatDate component"
+  },
+  "fw-format-date-year": {
+    "prefix": "fw-fdy",
+    "body": [
+      "<fw-format-date year=\"numeric\"></fw-format-date>"
+    ],
+    "description": "Freshworks Crayons FormatDate component"
+  },
+  "fw-format-number": {
+    "prefix": "fw-fn",
+    "body": [
+      "<fw-format-number value=\"${1:value}\" locale=\"${2:locale}\" minimum-fraction-digits=\"${3:minimum-fraction-digits}\"></fw-format-number>"
+    ],
+    "description": "Freshworks Crayons FormatNumber component"
+  },
+  "fw-format-number-percent": {
+    "prefix": "fw-fnp",
+    "body": [
+      "<fw-format-number value=\"${1:value}\" type=\"percent\"></fw-format-number>"
+    ],
+    "description": "Freshworks Crayons FormatNumber component"
+  },
+  "fw-format-number-currency": {
+    "prefix": "fw-fnc",
+    "body": [
+      "<fw-format-number value=\"${1:value}\" currency=\"${2:currency}\" type=\"currency\"></fw-format-number>"
+    ],
+    "description": "Freshworks Crayons FormatNumber component"
+  },
+  "fw-icon": {
+    "prefix": "fw-i",
+    "body": [
+      "<fw-icon name=\"${1:name}\" size=\"${2:size}\" color=\"${3:color}\"></fw-icon>"
+    ],
+    "description": "Freshworks Crayons Icon component"
+  },
+  "fw-inline-message": {
+    "prefix": "fw-im",
+    "body": [
+      "<fw-inline-message type=\"${1:type}\" open></fw-inline-message>"
+    ],
+    "description": "Freshworks Crayons InlineMessage component"
+  },
+  "fw-inline-message-error": {
+    "prefix": "fw-ime",
+    "body": [
+      "<fw-inline-message open></fw-inline-message>"
+    ],
+    "description": "Freshworks Crayons InlineMessage component"
+  },
+  "fw-inline-message-info": {
+    "prefix": "fw-imi",
+    "body": [
+      "<fw-inline-message open></fw-inline-message>"
+    ],
+    "description": "Freshworks Crayons InlineMessage component"
+  },
+  "fw-inline-message-warning": {
+    "prefix": "fw-imw",
+    "body": [
+      "<fw-inline-message open></fw-inline-message>"
+    ],
+    "description": "Freshworks Crayons InlineMessage component"
+  },
+  "fw-inline-message-success": {
+    "prefix": "fw-ims",
+    "body": [
+      "<fw-inline-message open></fw-inline-message>"
+    ],
+    "description": "Freshworks Crayons InlineMessage component"
+  },
+  "fw-inline-message-closable": {
+    "prefix": "fw-imc",
+    "body": [
+      "<fw-inline-message type=\"${1:type}\" open></fw-inline-message>"
+    ],
+    "description": "Freshworks Crayons InlineMessage component"
+  },
+  "fw-inline-message-closable-error": {
+    "prefix": "fw-imce",
+    "body": [
+      "<fw-inline-message open></fw-inline-message>"
+    ],
+    "description": "Freshworks Crayons InlineMessage component"
+  },
+  "fw-inline-message-closable-info": {
+    "prefix": "fw-imci",
+    "body": [
+      "<fw-inline-message open></fw-inline-message>"
+    ],
+    "description": "Freshworks Crayons InlineMessage component"
+  },
+  "fw-inline-message-closable-warning": {
+    "prefix": "fw-imcw",
+    "body": [
+      "<fw-inline-message open></fw-inline-message>"
+    ],
+    "description": "Freshworks Crayons InlineMessage component"
+  },
+  "fw-inline-message-closable-success": {
+    "prefix": "fw-imcs",
+    "body": [
+      "<fw-inline-message open></fw-inline-message>"
+    ],
+    "description": "Freshworks Crayons InlineMessage component"
+  },
+  "fw-input": {
+    "prefix": "fw-input",
+    "body": [
+      "<fw-input label=\"${1:label}\" placeholder=\"${2:placeholder}\" state=\"${3:state}\" required></fw-input>"
+    ],
+    "description": "Freshworks Crayons Input component"
+  },
+  "fw-kebab-menu": {
+    "prefix": "fw-km",
+    "body": [
+      "<fw-kebab-menu id=\"${1:id}\"></fw-kebab-menu>"
+    ],
+    "description": "Freshworks Crayons KebabMenu component"
+  },
+  "fw-label": {
+    "prefix": "fw-la",
+    "body": [
+      "<fw-label value=\"${1:value}\" color=\"${2:color}\"></fw-label>"
+    ],
+    "description": "Freshworks Crayons Label component"
+  },
+  "fw-label-blue": {
+    "prefix": "fw-lab",
+    "body": [
+      "<fw-label value=\"${1:value}\" color=\"blue\"></fw-label>"
+    ],
+    "description": "Freshworks Crayons Label component"
+  },
+  "fw-label-red": {
+    "prefix": "fw-lar",
+    "body": [
+      "<fw-label value=\"${1:value}\" color=\"red\"></fw-label>"
+    ],
+    "description": "Freshworks Crayons Label component"
+  },
+  "fw-label-green": {
+    "prefix": "fw-lag",
+    "body": [
+      "<fw-label value=\"${1:value}\" color=\"green\"></fw-label>"
+    ],
+    "description": "Freshworks Crayons Label component"
+  },
+  "fw-label-yellow": {
+    "prefix": "fw-lay",
+    "body": [
+      "<fw-label value=\"${1:value}\" color=\"yellow\"></fw-label>"
+    ],
+    "description": "Freshworks Crayons Label component"
+  },
+  "fw-label-grey": {
+    "prefix": "fw-lagrey",
+    "body": [
+      "<fw-label value=\"${1:value}\" color=\"grey\"></fw-label>"
+    ],
+    "description": "Freshworks Crayons Label component"
+  },
+  "fw-menu": {
+    "prefix": "fw-menu",
+    "body": [
+      "<fw-menu></fw-menu>"
+    ],
+    "description": "Freshworks Crayons Menu component"
+  },
+  "fw-menu-item": {
+    "prefix": "fw-menu-item",
+    "body": [
+      "<fw-menu-item selectable>${0:content}</fw-menu-item>"
+    ],
+    "description": "Freshworks Crayons MenuItem component"
+  },
+  "fw-modal": {
+    "prefix": "fw-modal",
+    "body": [
+      "<fw-modal id=\"${1:id}\" title-text=\"${2:title-text}\" size=\"${3:size}\">${0:content}</fw-modal>"
+    ],
+    "description": "Freshworks Crayons Modal component"
+  },
+  "fw-modal-small": {
+    "prefix": "fw-modal-s",
+    "body": [
+      "<fw-modal id=\"${1:id}\" title-text=\"${2:title-text}\" size=\"small\">${0:content}</fw-modal>"
+    ],
+    "description": "Freshworks Crayons Modal component"
+  },
+  "fw-modal-large": {
+    "prefix": "fw-modal-l",
+    "body": [
+      "<fw-modal id=\"${1:id}\" title-text=\"${2:title-text}\" size=\"large\">${0:content}</fw-modal>"
+    ],
+    "description": "Freshworks Crayons Modal component"
+  },
+  "fw-modal-slider": {
+    "prefix": "fw-modal-slider",
+    "body": [
+      "<fw-modal id=\"${1:id}\" title-text=\"${2:title-text}\" slider=\"true\">${0:content}</fw-modal>"
+    ],
+    "description": "Freshworks Crayons Modal component"
+  },
+  "fw-modal-title": {
+    "prefix": "fw-modal-title",
+    "body": [
+      "<fw-modal-title title-text=\"${1:title-text}\">${0:content}</fw-modal-title>"
+    ],
+    "description": "Freshworks Crayons ModalTitle component"
+  },
+  "fw-modal-content": {
+    "prefix": "fw-modal-content",
+    "body": [
+      "<fw-modal-content>${0:content}</fw-modal-content>"
+    ],
+    "description": "Freshworks Crayons ModalContent component"
+  },
+  "fw-modal-footer": {
+    "prefix": "fw-modal-footer",
+    "body": [
+      "<fw-modal-footer>${0:content}</fw-modal-footer>"
+    ],
+    "description": "Freshworks Crayons ModalFooter component"
+  },
+  "fw-list-options": {
+    "prefix": "fw-lo",
+    "body": [
+      "<fw-list-options variant=\"${1:variant}\" id=\"${2:id}\" slot=\"${3:slot}\" option-label-path=\"${4:option-label-path}\" option-value-path=\"${5:option-value-path}\"></fw-list-options>"
+    ],
+    "description": "Freshworks Crayons ListOptions component"
+  },
+  "fw-list-options-searchable": {
+    "prefix": "fw-los",
+    "body": [
+      "<fw-list-options variant=\"${1:variant}\" id=\"${2:id}\" slot=\"${3:slot}\" option-label-path=\"${4:option-label-path}\" option-value-path=\"${5:option-value-path}\" searchable=\"true\"></fw-list-options>"
+    ],
+    "description": "Freshworks Crayons ListOptions component"
+  },
+  "fw-pagination": {
+    "prefix": "fw-page",
+    "body": [
+      "<fw-pagination per-page=\"${1:per-page}\" total=\"${2:total}\" page=\"${3:page}\"></fw-pagination>"
+    ],
+    "description": "Freshworks Crayons Pagination component"
+  },
+  "fw-pill": {
+    "prefix": "fw-pill",
+    "body": [
+      "<fw-pill color=\"${1:color}\">${0:content}</fw-pill>"
+    ],
+    "description": "Freshworks Crayons Pill component"
+  },
+  "fw-pill-blue": {
+    "prefix": "fw-pill-blue",
+    "body": [
+      "<fw-pill color=\"blue\">${0:content}</fw-pill>"
+    ],
+    "description": "Freshworks Crayons Pill component"
+  },
+  "fw-pill-red": {
+    "prefix": "fw-pill-red",
+    "body": [
+      "<fw-pill color=\"red\">${0:content}</fw-pill>"
+    ],
+    "description": "Freshworks Crayons Pill component"
+  },
+  "fw-pill-green": {
+    "prefix": "fw-pill-green",
+    "body": [
+      "<fw-pill color=\"green\">${0:content}</fw-pill>"
+    ],
+    "description": "Freshworks Crayons Pill component"
+  },
+  "fw-pill-yellow": {
+    "prefix": "fw-pill-yellow",
+    "body": [
+      "<fw-pill color=\"yellow\">${0:content}</fw-pill>"
+    ],
+    "description": "Freshworks Crayons Pill component"
+  },
+  "fw-pill-grey": {
+    "prefix": "fw-pill-grey",
+    "body": [
+      "<fw-pill color=\"grey\">${0:content}</fw-pill>"
+    ],
+    "description": "Freshworks Crayons Pill component"
+  },
+  "fw-popover": {
+    "prefix": "fw-pop",
+    "body": [
+      "<fw-popover id=\"${1:id}\" same-width=\"${2:same-width}\" placement=\"${3:placement}\">${0:content}</fw-popover>"
+    ],
+    "description": "Freshworks Crayons Popover component"
+  },
+  "fw-progress-loader": {
+    "prefix": "fw-progress",
+    "body": [
+      "<fw-progress-loader id=\"${1:id}\" parent=\"${2:parent}\" show></fw-progress-loader>"
+    ],
+    "description": "Freshworks Crayons ProgressLoader component"
+  },
+  "fw-radio": {
+    "prefix": "fw-radio",
+    "body": [
+      "<fw-radio description=\"${1:description}\" value=\"${2:value}\">${0:content}</fw-radio>"
+    ],
+    "description": "Freshworks Crayons Radio component"
+  },
+  "fw-radio-checked": {
+    "prefix": "fw-radio-checked",
+    "body": [
+      "<fw-radio description=\"${1:description}\" value=\"${2:value}\" checked>${0:content}</fw-radio>"
+    ],
+    "description": "Freshworks Crayons Radio component"
+  },
+  "fw-radio-disabled": {
+    "prefix": "fw-radio-disabled",
+    "body": [
+      "<fw-radio description=\"${1:description}\" value=\"${2:value}\" disabled>${0:content}</fw-radio>"
+    ],
+    "description": "Freshworks Crayons Radio component"
+  },
+  "fw-radio-group": {
+    "prefix": "fw-radio-group",
+    "body": [
+      "<fw-radio-group name=\"${1:name}\" value=\"${2:value}\">${0:content}</fw-radio-group>"
+    ],
+    "description": "Freshworks Crayons RadioGroup component"
+  },
+  "fw-select": {
+    "prefix": "fw-select",
+    "body": [
+      "<fw-select label=\"${1:label}\" required=\"${2:required}\" value=\"${3:value}\" placeholder=\"${4:placeholder}\" hint-text=\"${5:hint-text}\">${0:content}</fw-select>"
+    ],
+    "description": "Freshworks Crayons Select component"
+  },
+  "fw-select-multiple": {
+    "prefix": "fw-select-multiple",
+    "body": [
+      "<fw-select label=\"${1:label}\" required=\"${2:required}\" value=\"${3:value}\" placeholder=\"${4:placeholder}\" hint-text=\"${5:hint-text}\" multiple>${0:content}</fw-select>"
+    ],
+    "description": "Freshworks Crayons Select component"
+  },
+  "fw-select-option": {
+    "prefix": "fw-select-option",
+    "body": [
+      "<fw-select-option value=\"${1:value}\">${0:content}</fw-select-option>"
+    ],
+    "description": "Freshworks Crayons SelectOption component"
+  },
+  "fw-select-option-selected": {
+    "prefix": "fw-select-option-selected",
+    "body": [
+      "<fw-select-option value=\"${1:value}\" selected>${0:content}</fw-select-option>"
+    ],
+    "description": "Freshworks Crayons SelectOption component"
+  },
+  "fw-skeleton": {
+    "prefix": "fw-sk",
+    "body": [
+      "<fw-skeleton variant=\"${1:variant}\"></fw-skeleton>"
+    ],
+    "description": "Freshworks Crayons Skeleton component"
+  },
+  "fw-skeleton-circle": {
+    "prefix": "fw-skc",
+    "body": [
+      "<fw-skeleton variant=\"circle\"></fw-skeleton>"
+    ],
+    "description": "Freshworks Crayons Skeleton component"
+  },
+  "fw-skeleton-rect": {
+    "prefix": "fw-skr",
+    "body": [
+      "<fw-skeleton variant=\"rect\"></fw-skeleton>"
+    ],
+    "description": "Freshworks Crayons Skeleton component"
+  },
+  "fw-spinner": {
+    "prefix": "fw-spin",
+    "body": [
+      "<fw-spinner size=\"${1:size}\" color=\"${2:color}\"></fw-spinner>"
+    ],
+    "description": "Freshworks Crayons Spinner component"
+  },
+  "fw-spinner-micro": {
+    "prefix": "fw-spin-micro",
+    "body": [
+      "<fw-spinner color=\"${1:color}\" size=\"micro\"></fw-spinner>"
+    ],
+    "description": "Freshworks Crayons Spinner component"
+  },
+  "fw-spinner-small": {
+    "prefix": "fw-spin-small",
+    "body": [
+      "<fw-spinner color=\"${1:color}\" size=\"small\"></fw-spinner>"
+    ],
+    "description": "Freshworks Crayons Spinner component"
+  },
+  "fw-spinner-medium": {
+    "prefix": "fw-spin-medium",
+    "body": [
+      "<fw-spinner color=\"${1:color}\" size=\"medium\"></fw-spinner>"
+    ],
+    "description": "Freshworks Crayons Spinner component"
+  },
+  "fw-spinner-large": {
+    "prefix": "fw-spin-large",
+    "body": [
+      "<fw-spinner color=\"${1:color}\" size=\"large\"></fw-spinner>"
+    ],
+    "description": "Freshworks Crayons Spinner component"
+  },
+  "fw-tab": {
+    "prefix": "fw-tab",
+    "body": [
+      "<fw-tab slot=\"${1:slot}\" active=\"${2:active}\" disabled=\"${3:disabled}\" panel=\"${4:panel}\" tabHeader=\"${5:tabHeader}\" tabName=\"${6:tabName}\">${0:content}</fw-tab>"
+    ],
+    "description": "Freshworks Crayons Tab component"
+  },
+  "fw-tab-panel": {
+    "prefix": "fw-tab-panel",
+    "body": [
+      "<fw-tab-panel active=\"${1:active}\" name=\"${2:name}\">${0:content}</fw-tab-panel>"
+    ],
+    "description": "Freshworks Crayons TabPanel component"
+  },
+  "fw-tabs": {
+    "prefix": "fw-tabs",
+    "body": [
+      "<fw-tabs>${0:content}</fw-tabs>"
+    ],
+    "description": "Freshworks Crayons Tabs component"
+  },
+  "fw-tag": {
+    "prefix": "fw-tag",
+    "body": [
+      "<fw-tag id=\"${1:id}\" variant=\"${2:variant}\" text=\"${3:text}\" state=\"${4:state}\"></fw-tag>"
+    ],
+    "description": "Freshworks Crayons Tag component"
+  },
+  "fw-textarea": {
+    "prefix": "fw-textarea",
+    "body": [
+      "<fw-textarea label=\"${1:label}\" warning-text=\"${2:warning-text}\" state=\"${3:state}\" placeholder=\"${4:placeholder}\" required></fw-textarea>"
+    ],
+    "description": "Freshworks Crayons Textarea component"
+  },
+  "fw-timepicker": {
+    "prefix": "fw-tp",
+    "body": [
+      "<fw-timepicker interval=\"${1:interval}\" format=\"${2:format}\"></fw-timepicker>"
+    ],
+    "description": "Freshworks Crayons Timepicker component"
+  },
+  "fw-timepicker-range": {
+    "prefix": "fw-tp-range",
+    "body": [
+      "<fw-timepicker min-time=\"${1:min-time}\" max-time=\"${2:max-time}\"></fw-timepicker>"
+    ],
+    "description": "Freshworks Crayons Timepicker component"
+  },
+  "fw-toast": {
+    "prefix": "fw-toast",
+    "body": [
+      "<fw-toast id=\"${1:id}\" position=\"${2:position}\"></fw-toast>"
+    ],
+    "description": "Freshworks Crayons Toast component"
+  },
+  "fw-toast-message": {
+    "prefix": "fw-tm",
+    "body": [
+      "<fw-toast-message type=\"${1:type}\" id=\"${2:id}\" timeout=\"${3:timeout}\"></fw-toast-message>"
+    ],
+    "description": "Freshworks Crayons ToastMessage component"
+  },
+  "fw-toast-message-success": {
+    "prefix": "fw-tms",
+    "body": [
+      "<fw-toast-message id=\"${1:id}\" timeout=\"${2:timeout}\" type=\"success\"></fw-toast-message>"
+    ],
+    "description": "Freshworks Crayons ToastMessage component"
+  },
+  "fw-toast-message-error": {
+    "prefix": "fw-tme",
+    "body": [
+      "<fw-toast-message id=\"${1:id}\" timeout=\"${2:timeout}\" type=\"error\"></fw-toast-message>"
+    ],
+    "description": "Freshworks Crayons ToastMessage component"
+  },
+  "fw-toast-message-warning": {
+    "prefix": "fw-tmw",
+    "body": [
+      "<fw-toast-message id=\"${1:id}\" timeout=\"${2:timeout}\" type=\"warning\"></fw-toast-message>"
+    ],
+    "description": "Freshworks Crayons ToastMessage component"
+  },
+  "fw-toast-message-inprogress": {
+    "prefix": "fw-tmi",
+    "body": [
+      "<fw-toast-message id=\"${1:id}\" timeout=\"${2:timeout}\" type=\"inprogress\"></fw-toast-message>"
+    ],
+    "description": "Freshworks Crayons ToastMessage component"
+  },
+  "fw-toggle": {
+    "prefix": "fw-toggle",
+    "body": [
+      "<fw-toggle size=\"${1:size}\" label=\"${2:label}\" name=\"${3:name}\"></fw-toggle>"
+    ],
+    "description": "Freshworks Crayons Toggle component"
+  },
+  "fw-toggle-small": {
+    "prefix": "fw-toggle-small",
+    "body": [
+      "<fw-toggle label=\"${1:label}\" name=\"${2:name}\" size=\"small\"></fw-toggle>"
+    ],
+    "description": "Freshworks Crayons Toggle component"
+  },
+  "fw-toggle-large": {
+    "prefix": "fw-toggle-large",
+    "body": [
+      "<fw-toggle label=\"${1:label}\" name=\"${2:name}\" size=\"large\"></fw-toggle>"
+    ],
+    "description": "Freshworks Crayons Toggle component"
+  },
+  "fw-toggle-checked": {
+    "prefix": "fw-toggle-checked",
+    "body": [
+      "<fw-toggle label=\"${1:label}\" name=\"${2:name}\" size=\"${3:size}\" checked></fw-toggle>"
+    ],
+    "description": "Freshworks Crayons Toggle component"
+  },
+  "fw-toggle-disabled": {
+    "prefix": "fw-toggle-disabled",
+    "body": [
+      "<fw-toggle label=\"${1:label}\" name=\"${2:name}\" size=\"${3:size}\" disabled></fw-toggle>"
+    ],
+    "description": "Freshworks Crayons Toggle component"
+  },
+  "fw-toggle-group": {
+    "prefix": "fw-tg",
+    "body": [
+      "<fw-toogle-group name=\"${1:name}\" selected-values=\"${2:selected-values}\">${0:content}</fw-toogle-group>"
+    ],
+    "description": "Freshworks Crayons ToogleGroup component"
+  },
+  "fw-toggle-group-button": {
+    "prefix": "fw-tgb",
+    "body": [
+      "<fw-toogle-group-button header=\"${1:header}\" description=\"${2:description}\" value=\"${3:value}\">${0:content}</fw-toogle-group-button>"
+    ],
+    "description": "Freshworks Crayons ToogleGroupButton component"
+  },
+  "fw-tooltip": {
+    "prefix": "fw-tt",
+    "body": [
+      "<fw-tooltip id=\"${1:id}\" placement=\"${2:placement}\" trigger=\"${3:trigger}\" content=\"${4:content}\">${0:content}</fw-tooltip>"
+    ],
+    "description": "Freshworks Crayons Tooltip component"
+  },
+  "fw-tooltip-top": {
+    "prefix": "fw-ttt",
+    "body": [
+      "<fw-tooltip id=\"${1:id}\" trigger=\"${2:trigger}\" content=\"${3:content}\" placement=\"top\">${0:content}</fw-tooltip>"
+    ],
+    "description": "Freshworks Crayons Tooltip component"
+  },
+  "fw-tooltip-right": {
+    "prefix": "fw-ttr",
+    "body": [
+      "<fw-tooltip id=\"${1:id}\" trigger=\"${2:trigger}\" content=\"${3:content}\" placement=\"right\">${0:content}</fw-tooltip>"
+    ],
+    "description": "Freshworks Crayons Tooltip component"
+  },
+  "fw-tooltip-bottom": {
+    "prefix": "fw-ttb",
+    "body": [
+      "<fw-tooltip id=\"${1:id}\" trigger=\"${2:trigger}\" content=\"${3:content}\" placement=\"bottom\">${0:content}</fw-tooltip>"
+    ],
+    "description": "Freshworks Crayons Tooltip component"
+  },
+  "fw-tooltip-left": {
+    "prefix": "fw-ttl",
+    "body": [
+      "<fw-tooltip id=\"${1:id}\" trigger=\"${2:trigger}\" content=\"${3:content}\" placement=\"left\">${0:content}</fw-tooltip>"
+    ],
+    "description": "Freshworks Crayons Tooltip component"
+  }
 }
