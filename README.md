@@ -7,7 +7,10 @@ Snippets for [Freshworks Crayons Components](https://crayons.freshworks.com)
 
 ## Install
 
-Use your plugin manager of choice, e.g.
+For Visual Studio Code, you can search for `Freshworks Crayons` from the marketplace extensions and install.
+[Freshworks Crayons Snippets](https://marketplace.visualstudio.com/items?itemName=Rajasegar.crayons-snippets&ssr=false#overview)
+
+For Neovim users, Use your plugin manager of choice, e.g.
 
 ### With Lazy.nvim
 
